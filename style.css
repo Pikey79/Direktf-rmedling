@@ -19,6 +19,24 @@ html, body {
   font-size: 1.1em !important;
 }
 
+.dropdown-menu {
+  background: #f8f9fa;
+  border: none;
+  top: 93% !important;
+}
+
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #222;
+  text-decoration: none;
+  background-color: #f39231;
+}
+
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
 .carousel-inner img {
   width:100%;
   height: 100%;
@@ -156,8 +174,77 @@ hr.light-100 {
 }
 
 
+/****************************************************
+Verksamheter
+****************************************************/
 
+/* School */
+.banner-school {
+  background-image: url("img/df/skola.jpg");
+}
 
+/* Restaurant */
+.banner-restaurant {
+  background-image: url("img/df/restaurang.jpg");
+}
+
+/* Care */
+.banner-care {
+  background-image: url("img/df/vard.jpg");
+}
+
+/* economy */
+.banner-economy {
+  background-image: url("img/df/ekonomi.jpg");
+}
+
+/* construction */
+.banner-construction {
+  background-image: url("img/df/bygg.jpg");
+}
+
+/* cleaning */
+.banner-cleaning {
+  background-image: url("img/df/lokalvard.jpg");
+}
+
+/* Retail */
+.banner-retail {
+  background-image: url("img/df/detaljhandel.jpg");
+}
+
+/* Banner */
+.banner-container {
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.banner-container.banner-cleaning, .banner-container.banner-retail {
+  background-position: center;
+}
+
+.banner-heading-container {
+  position:absolute;
+  top:50%;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  right: 15%;
+  left: 15%;
+  z-index: 10;
+  color: #fff;
+  text-align: center;
+}
+
+.banner-heading-container h1 {
+  font-size:500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
 
 
 
@@ -174,10 +261,14 @@ hr.light-100 {
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
-  
+
   .social a {
     font-size: 4em;
     padding: 2rem;
+  }
+
+  .banner-container {
+    height: 160px;
   }
 
 }
@@ -189,7 +280,7 @@ hr.light-100 {
     top:45%;
   }
 
-  .carousel-caption h1 {
+  .carousel-caption h1, .banner-heading-container h1 {
     font-size:350%;
   }
 
@@ -213,7 +304,6 @@ hr.light-100 {
     padding: 1.2rem;
   }
 
-  
 }
 
 @media (max-width: 576px) {
@@ -223,7 +313,7 @@ hr.light-100 {
     top:40%;
   }
 
-  .carousel-caption h1 {
+  .carousel-caption h1, .banner-heading-container h1 {
     font-size:250%;
   }
 
@@ -244,7 +334,7 @@ hr.light-100 {
     font-size: 2em;
     padding: .7rem;
   }
-  
+
 }
 
 
@@ -310,11 +400,3 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
-
-
-
-
-
-
-

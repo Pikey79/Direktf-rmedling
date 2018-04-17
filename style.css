@@ -25,53 +25,68 @@ html, body {
   top: 93% !important;
 }
 
-
 .dropdown-item:focus, .dropdown-item:hover {
   color: #222;
   text-decoration: none;
   background-color: #f39231;
 }
 
-
-.dropdown:hover .dropdown-menu {
-  display: block;
+/* Banner */
+.banner-container {
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
-.carousel-inner img {
-  width:100%;
-  height: 100%;
+.banner-homepage {
+  background-image:  url("img/df/ekonomi.jpg");
+  height: 400px;
 }
 
-.carousel-caption {
+.banner-heading-container {
   position:absolute;
   top:50%;
   transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
+  right: 3%;
+  left: 3%;
+  z-index: 10;
+  color: #fff;
+  text-align: center;
 }
 
-.carousel-caption h1 {
+.banner-heading-container h1 {
   font-size:500%;
   text-transform: uppercase;
   text-shadow: 1px 1px 15px #000;
 }
 
-.carousel-caption h3 {
+.banner-heading-container h3 {
   font-size: 200%;
   font-weight: 500;
   text-shadow: 1px 1px 10px #000;
   padding-bottom: 1rem;
 }
 
+.banner-homepage .btn-primary {
+  font-size: 26px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 .btn-primary {
-  background-color: #6648b1;
-  border: 1px solid #6648b1;
+  background-color: #f39231;
+  border: 1px solid #f39231;
+  border-radius: 0 !important;
 }
 
 .btn-primary:hover {
-  background-color: #563d7c;
-  border: 1px solid #563d7c;
+  background-color: #da832c;
+  border: 1px solid #da832c;
 }
 
 .jumbotron {
@@ -213,54 +228,29 @@ Verksamheter
   background-image: url("img/df/detaljhandel.jpg");
 }
 
-/* Banner */
-.banner-container {
-  height: 300px;
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom;
-}
-
 .banner-container.banner-cleaning, .banner-container.banner-retail {
   background-position: center;
 }
 
-.banner-heading-container {
-  position:absolute;
-  top:50%;
-  transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  right: 15%;
-  left: 15%;
-  z-index: 10;
-  color: #fff;
-  text-align: center;
-}
-
-.banner-heading-container h1 {
-  font-size:500%;
-  text-transform: uppercase;
-  text-shadow: 1px 1px 15px #000;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*---Media Queries --*/
-@media (max-width: 992px) {
+@media (min-width: 991px) {
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+}
+
+@media (max-width: 991px) {
+
+  .banner-homepage .banner-heading-container h1 {
+    font-size: 250%;
+  }
+
+  .banner-homepage .banner-heading-container h3 {
+    font-size: 150%;
+  }
 
   .social a {
     font-size: 4em;
@@ -271,29 +261,18 @@ Verksamheter
     height: 160px;
   }
 
-}
-
-@media (max-width: 768px) {
-
-  .carousel-caption {
-    position:absolute;
-    top:45%;
+  .banner-container.banner-homepage {
+    height: 250px;
   }
 
   .carousel-caption h1, .banner-heading-container h1 {
     font-size:350%;
   }
 
-  .carousel-caption h3 {
-    font-size: 140%;
-    font-weight: 400;
-    padding-bottom: .2rem;
-  }
+}
 
-  .carousel-caption btn {
-    font-size: 95%;
-    padding: 8px 14px;
-  }
+@media (max-width: 768px) {
+
 
   .display-4 {
     font-size: 200%;
@@ -308,22 +287,12 @@ Verksamheter
 
 @media (max-width: 576px) {
 
-  .carousel-caption {
-    position:absolute;
-    top:40%;
+  .banner-homepage .banner-heading-container h1 {
+    font-size: 185%;
   }
 
-  .carousel-caption h1, .banner-heading-container h1 {
-    font-size:250%;
-  }
-
-  .carousel-caption h3 {
+  .banner-homepage .banner-heading-container h3 {
     font-size: 110%;
-  }
-
-  .carousel-caption btn {
-    font-size: 90%;
-    padding: 4px 8px;
   }
 
   .display-4 {
@@ -337,15 +306,6 @@ Verksamheter
 
 }
 
-
-/*---Firefox Bug Fix --*/
-.carousel-item {
-  transition: -webkit-transform 0.5s ease;
-  transition: transform 0.5s ease;
-  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
-  -webkit-backface-visibility: visible;
-  backface-visibility: visible;
-}
 /*--- Fixed Background Image --*/
 figure {
   position: relative;

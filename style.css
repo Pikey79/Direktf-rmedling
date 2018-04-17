@@ -188,6 +188,10 @@ hr.light-100 {
   margin-bottom: 1rem;
 }
 
+.col-lg-6 {
+    top: 1.2rem;
+}
+
 
 /****************************************************
 Verksamheter
@@ -232,6 +236,7 @@ Verksamheter
   background-position: center;
 }
 
+<<<<<<< Updated upstream
 
 /*---Media Queries --*/
 @media (min-width: 991px) {
@@ -240,6 +245,106 @@ Verksamheter
     display: block;
   }
 
+=======
+.banner-heading-container {
+  position:absolute;
+  top:50%;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  right: 15%;
+  left: 15%;
+  z-index: 10;
+  color: #fff;
+  text-align: center;
+}
+
+.banner-heading-container h1 {
+  font-size:500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+
+
+/****************************************************
+Formulär
+****************************************************/
+
+.form-container {
+  background: #f2f2f2;
+  padding: 30px;
+  margin-top:20px;
+  border: 1px solid #ddd;
+}
+
+.form-control {
+  border: 1px solid #ccc;
+  border-radius: 0px !important;
+  padding-left: 50px;
+}
+
+.text-muted {
+  color: #fff !important;
+}
+
+.form-heading {
+  color: #222;
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 1.4rem;
+}
+
+.form-submit-btn {
+  color: #fff;
+  background-color: #f39231;
+  border-color: #f39231;
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 0px;
+}
+
+.form-submit-btn:hover {
+  background-color: #ea8f33;
+  border-color: #ea8f33;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0.3rem;
+  font-size: 0.8rem;
+}
+
+.form-control-file, .form-control-range {
+  font-size: 0.8rem;
+}
+
+.form-group {
+  margin-bottom: 0.5rem;
+}
+
+#name, #phone, #email, #exampleTextarea {
+  background-size: 22px 19px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#name {
+  background-image: url('img/df/name-form.svg');
+}
+
+#phone {
+  background-image: url('img/df/phone-form.svg');
+}
+
+#email {
+  background-image: url('img/df/email-form.svg');
+}
+
+#exampleTextarea {
+  background-image: url('img/df/message-form.svg');
+>>>>>>> Stashed changes
 }
 
 @media (max-width: 991px) {

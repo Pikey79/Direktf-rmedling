@@ -9,18 +9,16 @@
 	 </figure>
 </div>
 
-<div class="container-fluid padding">
-	<div class="row padding">
-		<div class="col-lg-6 left-column-text">
-			<h2>Ekonomi</h2>
-			<p>Direktförmedling hyr ut ekonomer, redovisningsekonomer, banktjänstemän, controllers samt administratörer.
-        Behöver du personal? Kontakta verksamhetschef Arman på arman@direktformedling.se eller ring….</p>
+<div class="ap-main-container">
+	<div class="container-fluid padding ap-more-padding">
+		<div class="row padding">
+			<div class="col-lg-6 left-column-text">
+				<h2>Ekonomi</h2>
+				<p>Direktförmedling hyr ut ekonomer, redovisningsekonomer, banktjänstemän, controllers samt administratörer.
+	        Behöver du personal? Kontakta verksamhetschef Arman på arman@direktformedling.se eller ring….</p>
+			</div>
+			<div class="col-lg-6">
+				<?php include('pages/form-apply-job.php'); ?>
+			</div>
 		</div>
-		<div class="col-lg-6">
-			<img src="img/df/skola.jpg" class="img-fluid">
-		</div>
-	</div>
 </div>
-<?php include('footer.php'); ?>
-</body>
-</html>

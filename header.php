@@ -23,7 +23,8 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light">
 	<div class="container-fluid">
-		<a class="navbar-brand" href="index.php?page=home"><img src="img/df/direktformedling_logo.png"></a>
+		<a class="navbar-brand logo-desktop" href="index.php?page=home"><img src="img/df/direktformedling_logo.png"></a>
+		<a class="navbar-brand logo-mobile" href="index.php?page=home"><img src="img/df/df_footer_logo.png"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 			<span class="navbar-toggler-icon"></span>
 		</button>

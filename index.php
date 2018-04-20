@@ -42,11 +42,11 @@ if (isset($_GET['page'])) {
 
     case 'application':
         include ('pages/application.php');
-        break; 
+        break;
 
     case 'search-staff':
         include ('pages/search-staff.php');
-        break; 
+        break;
 
     case 'about-us':
         include ('pages/about-us.php');
@@ -62,10 +62,12 @@ if (isset($_GET['page'])) {
 
     default:
         include ('pages/home.php');
-        break; 
+        break;
    }
 
    } else {
    include ('pages/home.php');
 }
 ?>
+
+<?php include('footer.php'); ?>

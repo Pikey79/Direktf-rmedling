@@ -1,88 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
+/****************************************************
+General
+****************************************************/
+
 html, body {
   height: 100%;
   width: 100%;
   font-family: 'Poppins', sans-serif;
   color: #222;
-}
-
-.navbar {
-  padding: .8rem;
-}
-
-.navbar-nav li {
-  padding-right: 20px;
-}
-
-.nav-link {
-  font-size: 1.1em !important;
-}
-
-.dropdown-menu {
-  background: #f8f9fa;
-  border: none;
-  top: 93% !important;
-}
-
-.dropdown-item:focus, .dropdown-item:hover {
-  color: #222;
-  text-decoration: none;
-  background-color: #f39231;
-}
-
-/* Banner */
-.banner-container {
-  height: 300px;
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom;
-}
-
-.banner-homepage {
-  background-image:  url("img/df/ekonomi.jpg");
-  height: 400px;
-}
-
-.banner-heading-container {
-  position:absolute;
-  top:50%;
-  transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  right: 3%;
-  left: 3%;
-  z-index: 10;
-  color: #fff;
-  text-align: center;
-}
-
-.banner-heading-container h1 {
-  font-size:500%;
-  text-transform: uppercase;
-  text-shadow: 1px 1px 15px #000;
-}
-
-.banner-heading-container h3 {
-  font-size: 200%;
-  font-weight: 500;
-  text-shadow: 1px 1px 10px #000;
-  padding-bottom: 1rem;
-}
-
-.banner-homepage .btn-primary {
-  font-size: 26px;
-  width: 220px;
-}
-
-.btn-outline-secondary {
-    color: #222;
-    background-color: transparent;
-    background-image: none;
-    border-color: #f39231;
-    border-radius: 0px;
 }
 
 .btn-primary {
@@ -94,6 +20,14 @@ html, body {
 .btn-primary:hover {
   background-color: #da832c;
   border: 1px solid #da832c;
+}
+
+.btn-outline-secondary {
+    color: #222;
+    background-color: transparent;
+    background-image: none;
+    border-color: #f39231;
+    border-radius: 0px;
 }
 
 .jumbotron {
@@ -171,21 +105,11 @@ html, body {
   color: #d5d5d5;
 }
 
-footer {
-  background: #062834 !important;
-  color: #fff !important;
-  padding-top: 2rem;
-}
-
 hr.light {
   border-top: 1px solid #d5d5d5;
   width: 75%;
   margin-top: 0.8rem;
   margin-bottom: 1rem;
-}
-
-footer a {
-  color: #fff !important;
 }
 
 hr.light-100 {
@@ -199,9 +123,63 @@ hr.light-100 {
   font-size: 2.5rem;
 }
 
+/** Operations pages **/
+.left-column-text {
+  padding-top: 40px !important;
+}
+
+.ap-more-padding {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.ap-main-container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
 /****************************************************
-operations section
+Nav
 ****************************************************/
+
+.navbar {
+  padding: .8rem;
+  -webkit-box-shadow: 0 0 8px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 0 8px rgba(0,0,0,0.3);
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+
+.nav-link {
+  font-size: 1.1em !important;
+}
+
+.dropdown-menu {
+  background: #f8f9fa;
+  border: none;
+  top: 93% !important;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #222;
+  text-decoration: none;
+  background-color: #f39231;
+}
+
+.logo-mobile {
+  display: none;
+}
+
+
+
+/****************************************************
+Homepage
+****************************************************/
+
+/** operations section **/
 
 .bg-color {
   background: #fafafa;
@@ -212,24 +190,105 @@ operations section
  padding-top: 4rem;
 }
 
+.list-button-operation {
+  display: block;
+}
+
+.list-button-operation .col {
+  width: 32%;
+  display: inline-block;
+  padding: 5px;
+}
+
 .operations {
   background-color: #fff;
   border: 3px solid #f39231;
   color: #222;
   width: 100%;
-  margin-top: 1.5rem;
+  font-size: 14px;
+  padding-left: 2px;
+  padding-right: 2px;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
 }
 
 .operations:hover {
   border: 3px solid #da832c;
 }
 
-/****************************************************
-Verksamheter
-****************************************************/
-.left-column-text {
-  padding-top: 40px !important;
+/** Hire staff **/
+.img-staff {
+  float: right;
+  margin-right: 9rem;
 }
+
+.advantages .padding {
+  margin-top: 4rem;
+}
+
+/** On banner **/
+.banner-homepage .btn-primary {
+  font-size: 20px;
+  width: 220px;
+}
+
+.stuff-button {
+  margin-right: 15px;
+  background-color: #4d83d4;
+  border-color: #4d83d4;
+}
+
+.stuff-button:hover {
+  background-color: #4575be;
+  border-color: #4575be;
+}
+
+/****************************************************
+Banner
+****************************************************/
+
+.banner-container {
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.banner-heading-container {
+  position:absolute;
+  top:50%;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  right: 3%;
+  left: 3%;
+  z-index: 10;
+  color: #fff;
+  text-align: center;
+}
+
+.banner-heading-container h1 {
+  font-size:500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+
+.banner-heading-container h3 {
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
+}
+
+/** Homepagen **/
+.banner-homepage {
+  background-image:  url("img/df/ekonomi.jpg");
+  height: 400px;
+}
+
 
 /* School */
 .banner-school {
@@ -270,8 +329,12 @@ Verksamheter
   background-position: center;
 }
 
+
+
+
+
 /****************************************************
-Formulär
+Form
 ****************************************************/
 
 .form-container {
@@ -327,10 +390,14 @@ label {
   margin-bottom: 0.5rem;
 }
 
-#name, #phone, #email, #exampleTextarea {
+#name, #phone, #email, #exampleTextarea, #company-name {
   background-size: 22px 19px;
   background-position: 11px 8px;
   background-repeat: no-repeat;
+}
+
+#company-name {
+  background-image: url('img/df/company-form.svg');
 }
 
 #name {
@@ -349,23 +416,20 @@ label {
   background-image: url('img/df/message-form.svg');
 }
 
-/****************************************************
-Fördelar
-****************************************************/
-
-.img-staff {
-  float: right;
-  margin-right: 9rem;
-}
-
-.advantages .padding {
-  margin-top: 4rem;
-}
-
 
 /****************************************************
-Footer 
+Footer
 ****************************************************/
+
+footer {
+  background: #062834 !important;
+  color: #fff !important;
+  padding-top: 2rem;
+}
+
+footer a {
+  color: #fff !important;
+}
 
 .footer-copyright {
   font-size: 0.8rem;
@@ -391,11 +455,27 @@ Footer
   text-align:left;
 }
 
-/*---Media Queries --*/
+
+
+
+/****************************************************
+Media Queries
+****************************************************/
+
 @media (min-width: 991px) {
 
   .dropdown:hover .dropdown-menu {
     display: block;
+  }
+}
+
+@media (max-width: 1280px) {
+  .logo-desktop {
+    display: none;
+  }
+
+  .logo-mobile {
+    display: inline-block;
   }
 }
 
@@ -427,6 +507,8 @@ Footer
     font-size:350%;
   }
 
+
+
 }
 
 @media (max-width: 768px) {
@@ -444,6 +526,14 @@ Footer
 }
 
 @media (max-width: 576px) {
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-size: 12px;
+  }
 
   .banner-homepage .banner-heading-container h1 {
     font-size: 185%;
@@ -468,7 +558,18 @@ Footer
     padding: .7rem;
   }
 
+  .banner-heading-container .btn-primary {
+    width: 50%;
+    margin-right: 0;
+  }
+
+  .list-button-operation .col {
+    width: 100%;
+  }
 }
+
+
+
 
 /*--- Fixed Background Image --*/
 figure {

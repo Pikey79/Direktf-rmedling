@@ -1,3 +1,5 @@
+
+</div>
 <!--- Footer -->
 <footer>
 	<div class="container-fluid padding">
@@ -37,10 +39,7 @@
 
 			<div class="col-12 social padding">
 				<a href="#"><i class="fab fa-facebook social-icon"></i></a>
-				<a href="#"><i class="fab fa-twitter social-icon"></i></a>
-				<a href="#"><i class="fab fa-google-plus-g social-icon"></i></a>
-				<a href="#"><i class="fab fa-instagram social-icon"></i></a>
-				<a href="#"><i class="fab fa-youtube social-icon"></i></a>
+				<a href="https://www.instagram.com/direktformedling/" target="_blank"><i class="fab fa-instagram social-icon"></i></a>
 			</div>
 
 			<div class="col-12">

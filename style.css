@@ -74,8 +74,15 @@ html, body {
 
 .banner-homepage .btn-primary {
   font-size: 26px;
-  padding-left: 40px;
-  padding-right: 40px;
+  width: 220px;
+}
+
+.btn-outline-secondary {
+    color: #222;
+    background-color: transparent;
+    background-image: none;
+    border-color: #f39231;
+    border-radius: 0px;
 }
 
 .btn-primary {
@@ -132,8 +139,8 @@ html, body {
 }
 
 .social a {
-  font-size: 4.5em;
-  padding: 3rem;
+  font-size: 2.5em;
+  padding: 1rem;
 }
 
 .fa-facebook {
@@ -165,8 +172,8 @@ html, body {
 }
 
 footer {
-  background: #3f3f3f;
-  color: #d5d5d5;
+  background: #062834 !important;
+  color: #fff !important;
   padding-top: 2rem;
 }
 
@@ -178,7 +185,7 @@ hr.light {
 }
 
 footer a {
-  color: #d5d5d5;
+  color: #fff !important;
 }
 
 hr.light-100 {
@@ -188,6 +195,34 @@ hr.light-100 {
   margin-bottom: 1rem;
 }
 
+.display-4 {
+  font-size: 2.5rem;
+}
+
+/****************************************************
+operations section
+****************************************************/
+
+.bg-color {
+  background: #fafafa;
+}
+
+.bg-color .padding {
+ padding-bottom: 2rem;
+ padding-top: 4rem;
+}
+
+.operations {
+  background-color: #fff;
+  border: 3px solid #f39231;
+  color: #222;
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.operations:hover {
+  border: 3px solid #da832c;
+}
 
 /****************************************************
 Verksamheter
@@ -234,7 +269,6 @@ Verksamheter
 .banner-container.banner-cleaning, .banner-container.banner-retail {
   background-position: center;
 }
-
 
 /****************************************************
 Formulär
@@ -315,7 +349,47 @@ label {
   background-image: url('img/df/message-form.svg');
 }
 
+/****************************************************
+Fördelar
+****************************************************/
 
+.img-staff {
+  float: right;
+  margin-right: 9rem;
+}
+
+.advantages .padding {
+  margin-top: 4rem;
+}
+
+
+/****************************************************
+Footer 
+****************************************************/
+
+.footer-copyright {
+  font-size: 0.8rem;
+  font-weight:300;
+}
+
+.footer-content {
+  margin-bottom: 0.4rem;
+  font-size: 0.9rem;
+}
+
+.footer-logo {
+  margin-bottom: 1.5rem;
+}
+
+.social-icon {
+  color:white;
+}
+
+.footer-content-container {
+  width:40%;
+  margin:0 auto;
+  text-align:left;
+}
 
 /*---Media Queries --*/
 @media (min-width: 991px) {
@@ -377,6 +451,12 @@ label {
 
   .banner-homepage .banner-heading-container h3 {
     font-size: 110%;
+  }
+
+  .banner-homepage .btn-primary {
+    margin-top: 0.6rem;
+    font-size: 18px;
+    width: 160px;
   }
 
   .display-4 {

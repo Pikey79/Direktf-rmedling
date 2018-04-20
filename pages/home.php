@@ -29,21 +29,17 @@
 
 	<!--- Three Column Section -->
 	<div class="container-fluid padding">
-		<div class="row text-center padding">
-			<div class="col-xs-12 col-sm-6 col-md-4">
-				<i class="fas fa-code"></i>
-				<h3>HTML 5</h3>
-				<p>fjdjfhdhfhe fjdfjdjfdj jrfjjfj</p>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-4">
-				<i class="fas fa-bold"></i>
-				<h3>Bootstrap</h3>
-				<p>fjdjfhdhfhe fjdfjdjfdj jrfjjfj</p>
-			</div>
-			<div class="col-sm-12 col-md-4">
-				<i class="fab fa-css3"></i>
-				<h3>CCS 3</h3>
-				<p>fjdjfhdhfhe fjdfjdjfdj jrfjjfj</p>
+		<div class="usp-outer-container">
+			<div class="row text-center padding">
+				<div class="col-xs-12 col-sm-6 col-md-4 usp-container">
+					<i class="far fa-check-square"></i><p class="usp-text">Direkta lösningar för er!</p>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 usp-container">
+					<i class="far fa-check-square"></i><p class="usp-text">Ert behov – Vår prioritet!</p>
+				</div>
+				<div class="col-sm-12 col-md-4 usp-container">
+					<i class="far fa-check-square"></i><p class="usp-text">Vi kan bemanning!</p>
+				</div>
 			</div>
 		</div>
 	</div>

@@ -562,6 +562,10 @@ Media Queries
     padding: 1.2rem;
   }
 
+  .welcome {
+    width: 100%;
+  }
+
 }
 
 @media (max-width: 767px) {
@@ -595,7 +599,7 @@ Media Queries
   }
 
   p {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .banner-homepage .banner-heading-container h1 {

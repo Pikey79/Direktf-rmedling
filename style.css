@@ -465,6 +465,28 @@ label {
   display: none !important;
 }
 
+/****************************************************
+Contact
+****************************************************/
+
+#map {
+  height: 400px;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+.contact-container p {
+  margin-bottom: 0.2rem;
+}
+
+.contact-container p:first-child {
+  color: #f39231;
+  font-size: 18px;
+}
+
+.contact-container p:last-child {
+  color: #f39231;
+}
 
 /****************************************************
 Footer

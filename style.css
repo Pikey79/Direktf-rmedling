@@ -385,6 +385,50 @@ label {
   background-image: url('img/df/message-form.svg');
 }
 
+/** Flap and Form changes **/
+
+.flap-one {
+    background: #f2f2f2;
+    display: inline-block;
+    padding: 5px;
+    width: 150px;
+    text-align: center;
+    position: absolute;
+    left: 16px;
+    top: 2px;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+}
+
+.flap-two {
+  background: #f2f2f2;
+  display: inline-block;
+  padding: 5px;
+  width: 150px;
+  text-align: center;
+  position: absolute;
+  left: 166px;
+  top: 2px;
+  border-radius: 5px 5px 0 0;
+  cursor: pointer;
+}
+
+.flap-active {
+  background: #ddd !important;
+}
+
+.form-container-search-stuff {
+  display: none;
+}
+
+.show-form-search-staff {
+  display: block !important;
+}
+
+.hide-form-apply-job {
+  display: none !important;
+}
+
 
 /****************************************************
 Footer

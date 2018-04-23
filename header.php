@@ -10,6 +10,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 	<link href="style.css" rel="stylesheet">
+	<link href="abbas.css" rel="stylesheet">
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -30,10 +31,10 @@
 		</button>
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item active">
+				<li class="nav-item home-page">
 					<a class="nav-link" href="index.php?page=home">Hem</a>
 				</li>
-				<li class="nav-item dropdown">
+				<li class="nav-item dropdown operations-page">
 					<a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Verksamheter</a>
 					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
 						<a class="dropdown-item" href="index.php?page=school">Skola</a>
@@ -45,19 +46,19 @@
 						<a class="dropdown-item" href="index.php?page=retail">Detaljhandel</a>
 					</div>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item application-page">
 					<a class="nav-link" href="index.php?page=application">Sök jobb</a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item search-staff-page">
 					<a class="nav-link" href="index.php?page=search-staff">Sök personal</a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item about-us-page">
 					<a class="nav-link" href="index.php?page=about-us">Om oss</a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item contact-page">
 					<a class="nav-link" href="index.php?page=contact">Kontakt</a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item employee-page">
 					<a class="nav-link" href="index.php?page=employee">Anställd</a>
 				</li>
 

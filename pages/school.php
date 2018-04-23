@@ -23,7 +23,10 @@
 				<p>Obligatorisk blankett för belastningsregister för dig som ska arbeta på skola eller förskola finns att hämta hem HÄR.</p>
 			</div>
 			<div class="col-lg-6">
+				<div class="flap-one flap-active">För sökande</div>
+				<div class="flap-two">För arbetsgivare</div>
 				<?php include('pages/form-apply-job.php'); ?>
+				<?php include('pages/form-search-staff.php'); ?>
 			</div>
 		</div>
 	</div>

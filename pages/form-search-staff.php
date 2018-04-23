@@ -1,6 +1,9 @@
-<div class="form-container form-container-apply-job">
+<div class="form-container form-container-search-stuff">
   <h2 class="form-heading">Skicka in din ansökan</h2>
   <form>
+    <div class="form-group">
+      <input class="form-control" id="company-name" type="text" placeholder="Företagsnamn" id="example-text-input">
+    </div>
     <div class="form-group">
       <input class="form-control" id="name" type="text" placeholder="Namn" id="example-text-input">
     </div>
@@ -12,14 +15,6 @@
     </div>
     <div class="form-group">
       <textarea class="form-control" id="exampleTextarea" placeholder="Meddelande" rows="3"></textarea>
-    </div>
-    <div class="form-group">
-      <label for="exampleInputFile">Ladda upp ditt CV</label>
-      <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
-    </div>
-    <div class="form-group">
-      <label for="exampleInputFile">Ladda upp ditt personliga brev</label>
-      <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
     </div>
     <button type="submit" class="btn btn-primary form-submit-btn">Skicka</button>
   </form>

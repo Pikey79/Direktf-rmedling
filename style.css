@@ -115,7 +115,7 @@ Nav
 }
 
 .dropdown-item:focus, .dropdown-item:hover {
-  color: #222;
+  color: #fff;
   text-decoration: none;
   background-color: #f39231;
 }
@@ -341,7 +341,14 @@ Form
   background: #f2f2f2;
   padding: 30px;
   margin-top:20px;
-  border: 1px solid #ddd;
+}
+
+.form-container-search-stuff-bg {
+  background: #ffe2bd !important;
+}
+
+.form-margin {
+  margin-top: 25px;
 }
 
 .form-control {
@@ -419,34 +426,32 @@ label {
 /** Flap and Form changes **/
 
 .flap-one {
-    background: #f2f2f2;
-    display: inline-block;
-    padding: 5px;
-    width: 150px;
-    text-align: center;
-    position: absolute;
-    left: 16px;
-    top: 2px;
-    border-radius: 5px 5px 0 0;
-    cursor: pointer;
-}
-
-.flap-two {
   background: #f2f2f2;
   display: inline-block;
   padding: 5px;
-  width: 150px;
+  width: 160px;
   text-align: center;
   position: absolute;
-  left: 166px;
+  left: 16px;
   top: 2px;
   border-radius: 5px 5px 0 0;
   cursor: pointer;
 }
 
-.flap-active {
-  background: #ddd !important;
+.flap-two {
+  background: #ffe2bd;
+  display: inline-block;
+  padding: 5px;
+  width: 160px;
+  text-align: center;
+  position: absolute;
+  left: 176px;
+  top: 2px;
+  border-radius: 5px 5px 0 0;
+  cursor: pointer;
+  box-sizing: border-box;
 }
+
 
 .form-container-search-stuff {
   display: none;
@@ -683,6 +688,24 @@ Media Queries
 
   .hire-staff-btn {
     width: 100%;
+  }
+
+  .form-container {
+    padding: 10px;
+  }
+
+  .form-container h2 {
+    font-size: 1.3rem;
+  }
+
+  .flap-one, .flap-two {
+    padding: 8px 5px;
+    width: 125px;
+    font-size: 12px;
+  }
+
+  .flap-two {
+    left: 141px;
   }
 }
 

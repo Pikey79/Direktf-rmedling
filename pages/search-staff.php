@@ -8,7 +8,7 @@
 				<p>Och här.......</p>
 			</div>
 			<div class="col-lg-6">
-				<div class="form-container">
+				<div class="form-container form-container-search-stuff-bg">
 					<h2 class="form-heading">Skicka in din ansökan</h2>
 					<form>
 						<div class="form-group">

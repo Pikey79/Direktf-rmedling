@@ -1,4 +1,4 @@
-<div class="form-container form-container-search-stuff">
+<div class="form-container form-container-search-stuff-bg form-container-search-stuff">
   <h2 class="form-heading">Skicka in din ansökan</h2>
   <form>
     <div class="form-group">

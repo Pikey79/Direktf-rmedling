@@ -11,8 +11,8 @@
 
 <div class="ap-main-container">
 	<div class="container-fluid padding ap-more-padding">
-		<div class="row padding">
-			<div class="col-lg-6 left-column-text">
+		<div class="row">
+			<div class="col-lg-6">
 				<h2>Restaurang och Hotell</h2>
 				<p>Direktförmedling hyr ut servicepersonal till restaurang- och hotellbranschen. Vi hyr även ut receptionister.
 	         Behöver du personal? Kontakta verksamhetschef Reza på reza@direktformedling.se eller ring …</p>

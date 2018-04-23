@@ -1,8 +1,8 @@
 <div class="ap-main-container">
 	<!-- Section -->
 	<div class="container-fluid padding">
-		<div class="row padding">
-			<div class="col-lg-6 left-column-text">
+		<div class="row">
+			<div class="col-lg-6">
 				<h2>Sök jobb</h2>
 				<p>Lägg in sök jobb text här.......</p>
 				<p>Och här.......</p>

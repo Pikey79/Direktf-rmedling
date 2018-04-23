@@ -11,8 +11,8 @@
 
 <div class="ap-main-container">
 	<div class="container-fluid padding ap-more-padding">
-		<div class="row padding">
-			<div class="col-lg-6 left-column-text">
+		<div class="row">
+			<div class="col-lg-6">
 				<h2>Ekonomi</h2>
 				<p>Direktförmedling hyr ut ekonomer, redovisningsekonomer, banktjänstemän, controllers samt administratörer.
 	        Behöver du personal? Kontakta verksamhetschef Arman på arman@direktformedling.se eller ring….</p>

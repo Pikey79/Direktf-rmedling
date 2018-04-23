@@ -46,9 +46,9 @@
 
 	<!--- operations Section -->
 	<div class="container-fluid padding bg-color ap-more-padding">
-		<div class="row padding">
+		<div class="row">
 			<div class="col-lg-6">
-				<h2>Konsulter med specialistkompetens</h2>
+				<h2>Konsulter med kompetens</h2>
 				<p>I motsättning till vad många tror, är inte Lorem Ipsum slumpvisa ord. Det har sina rötter i ett stycke klassiskt litteratur på latin från 45 år före år 0, och är alltså över 2000 år gammalt.</p><p>Richard McClintock, en professor i latin på Hampden-Sydney College i Virginia, översatte ett av de mer ovanliga orden, consectetur, från ett stycke Lorem Ipsum och fann dess ursprung genom att studera användningen av dessa ord i klassisk litteratur. </p>
 				<br>
 			</div>
@@ -68,67 +68,50 @@
 	</div>
 
 
-	<!--- Fixed background -->
-	<figure>
-		<div class="fixed-wrap">
-			<div id="fixed">
-			</div>
-		</div>
-	</figure>
-
-
-	<!--- Meet the team -->
-	<div class="container-fluid padding">
-		<div class="row welcome text-center">
-			<div class="col-12">
-				<h1 class="display-4">Lediga tjänster hos oss</h1>
-			</div>
-		</div>
-	</div>
-
 	<!--- Cards -->
-	<div class="container-fluid padding bg-color">
-		<div class="row padding">
-			<div class="col-md-3">
+	<div class="container-fluid padding bg-color-cards">
+		<h2>Lediga tjänster hos oss</h2>
+		<div class="row">
+			<div class="col-md-3 card-container">
 				<div class="card">
-					<img class="card-img-top" src="img/team1.png">
+					<img class="card-img-top" src="img/df/larare.jpg">
 					<div class="card-body">
 						<h4 class="card-title">Lärarvikarie till Lindskolan</h4>
-						<pclass="card-text">Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin.</p>
-						<a href="#" class="btn btn-outline-secondary">Kontakta oss för att höra mer</a>
+						<p class="card-text">Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin.</p>
+						<div class="card-button-container"><a href="#" class="btn btn-outline-secondary">Kontakta oss</a></div>
 					</div>
 				</div>
 			</div>
 
-			<div class="col-md-3">
+			<div class="col-md-3 card-container">
 				<div class="card">
-					<img class="card-img-top" src="img/team2.png">
+					<img class="card-img-top" src="img/df/waitress.jpg">
 					<div class="card-body">
 						<h4 class="card-title">Kallskänka till restaurang</h4>
-						<pclass="card-text">Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin.</p>
-						<a href="#" class="btn btn-outline-secondary">Kontakta oss för att höra mer</a>
+						<p class="card-text">Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin.</p>
+						<div class="card-button-container"><a href="#" class="btn btn-outline-secondary">Kontakta oss</a></div>
 					</div>
 				</div>
 			</div>
 
-			<div class="col-md-3">
+			<div class="col-md-3 card-container">
 				<div class="card">
-					<img class="card-img-top" src="img/team3.png">
+					<img class="card-img-top" src="img/df/business.jpg">
 					<div class="card-body">
 						<h4 class="card-title">Cloud mananger - IT mäklarna</h4>
-						<pclass="card-text">Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin.</p>
-						<a href="#" class="btn btn-outline-secondary">Kontakta oss för att höra mer</a>
+						<p class="card-text">Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin.</p>
+						<div class="card-button-container"><a href="#" class="btn btn-outline-secondary">Kontakta oss</a></div>
 					</div>
 				</div>
 			</div>
 
-			<div class="col-md-3">
+			<div class="col-md-3 card-container">
 				<div class="card">
-					<img class="card-img-top" src="img/team3.png">
+					<img class="card-img-top" src="img/df/cleanless.jpg">
 					<div class="card-body">
 						<h4 class="card-title">Hotellstäderska - Morning hotell</h4>
-						<pclass="card-text">Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin.</p>
-						<a href="#" class="btn btn-outline-secondary">Kontakta oss för att höra mer</a>
+						<p class="card-text">Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin.</p>
+						<div class="card-button-container"><a href="#" class="btn btn-outline-secondary">Kontakta oss</a></div>
 					</div>
 				</div>
 			</div>
@@ -137,17 +120,17 @@
 
 
 	<!--- Hire staff -->
-	<div class="container-fluid padding advantages ap-more-padding">
+	<div class="container-fluid padding ap-more-padding bg-color">
 		<div class="row padding">
 			<div class="col-lg-6">
 				<h2>Fördelar med att hyra personal av oss</h2>
 				<p>Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och </p>
 				<p>blandade dem för att göra ett provexemplar av en bok. Lorem ipsum har inte bara överlevt fem århundraden, utan även övergången till elektronisk typografi utan större.</p>
 				<br>
-				<a href="index.php?page=search-staff"><button type="button" class="btn btn-primary btn-lg">Sök personal</button></a>
+				<a href="index.php?page=search-staff"><button type="button" class="btn btn-primary btn-lg hire-staff-btn">Sök personal</button></a>
 			</div>
-			<div class="col-lg-6">
-				<img src="img/df/personal.png" class="img-fluid img-staff">
+			<div class="col-lg-6 hire-staff">
+				<img src="img/df/personal.jpg" class="img-fluid">
 			</div>
 		</div>
 	</div>

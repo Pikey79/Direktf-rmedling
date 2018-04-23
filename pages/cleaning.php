@@ -11,8 +11,8 @@
 
 <div class="ap-main-container">
 	<div class="container-fluid padding ap-more-padding">
-		<div class="row padding">
-			<div class="col-lg-6 left-column-text">
+		<div class="row">
+			<div class="col-lg-6">
 				<h2>Lokalvård</h2>
 				<p>Direktförmedling utför flyttstäd, byggstäd samt andra städuppdrag. Vi hyr även ut utbildade lokalvårdare för både stora och små uppdrag.
 	        Behöver du personal? Kontakta verksamhetschef Reza på reza@direktformedling.se eller ring….</p>

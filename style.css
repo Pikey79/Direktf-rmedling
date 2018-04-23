@@ -36,7 +36,8 @@ html, body {
 }
 
 .padding {
-  padding-bottom: 2rem;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .welcome {
@@ -78,10 +79,6 @@ hr.light-100 {
 }
 
 /** Operations pages **/
-.left-column-text {
-  padding-top: 40px !important;
-}
-
 .ap-more-padding {
   padding-left: 30px;
   padding-right: 30px;
@@ -139,11 +136,6 @@ Homepage
   background: #fafafa;
 }
 
-.bg-color .padding {
- padding-bottom: 2rem;
- padding-top: 4rem;
-}
-
 .list-button-operation {
   display: block;
 }
@@ -186,14 +178,53 @@ Homepage
   font-size: 22px;
 }
 
-/** Hire staff **/
-.img-staff {
-  float: right;
-  margin-right: 9rem;
+/** Job Cards **/
+.bg-color-cards {
+  background: #fff;
 }
 
-.advantages .padding {
-  margin-top: 4rem;
+.bg-color-cards h2 {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.card {
+  border-radius: 0px !important;
+}
+
+.card-title {
+  font-size: 1.3rem;
+}
+
+.card .card-img-top {
+  border-radius: 0px !important;
+}
+
+.card-button-container {
+  text-align: center;
+  width: 100%;
+}
+
+.card-button-container a {
+  width: 100%;
+}
+
+/** Hire staff **/
+.hire-staff img {
+  width: 400px;
+  height: auto;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.hire-staff-btn {
+  padding: .5rem 4rem;
 }
 
 /** On banner **/
@@ -504,39 +535,6 @@ Media Queries
   }
 }
 
-
-
-@media (max-width: 991px) {
-
-  .banner-homepage .banner-heading-container h1 {
-    font-size: 250%;
-  }
-
-  .banner-homepage .banner-heading-container h3 {
-    font-size: 150%;
-  }
-
-  .social a {
-    font-size: 4em;
-    padding: 2rem;
-  }
-
-  .banner-container {
-    height: 160px;
-  }
-
-  .banner-container.banner-homepage {
-    height: 250px;
-  }
-
-  .carousel-caption h1, .banner-heading-container h1 {
-    font-size:350%;
-  }
-
-
-
-}
-
 @media screen and (max-width: 992px) and (min-width: 768px) {
   .fa-check-square {
     font-size: 40px;
@@ -550,6 +548,43 @@ Media Queries
   }
 }
 
+
+@media (max-width: 991.98px) {
+
+  .banner-homepage .banner-heading-container h1 {
+    font-size: 250%;
+  }
+
+  .banner-homepage .banner-heading-container h3 {
+    font-size: 150%;
+  }
+
+
+  .banner-container {
+    height: 160px;
+  }
+
+  .banner-container.banner-homepage {
+    height: 250px;
+  }
+
+  .carousel-caption h1, .banner-heading-container h1 {
+    font-size:350%;
+  }
+
+  .card-container {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .hire-staff {
+    display: none;
+  }
+
+}
+
+
+
 @media (max-width: 768px) {
 
 
@@ -557,14 +592,12 @@ Media Queries
     font-size: 200%;
   }
 
-  .social a {
-    font-size: 2.5em;
-    padding: 1.2rem;
-  }
 
   .welcome {
     width: 100%;
   }
+
+
 
 }
 
@@ -588,6 +621,14 @@ Media Queries
   .fa-check-square {
     font-size: 50px;
     top: 12px;
+  }
+
+  footer .col-md-4:nth-child(2), footer .col-md-4:nth-child(3) {
+    display: none;
+  }
+
+  footer .footer-content-container {
+    text-align: center;
   }
 
 }
@@ -631,6 +672,16 @@ Media Queries
   }
 
   .list-button-operation .col {
+    width: 100%;
+  }
+
+  .card-container {
+    flex: none;
+    max-width: none;
+    width: 100%;
+  }
+
+  .hire-staff-btn {
     width: 100%;
   }
 }

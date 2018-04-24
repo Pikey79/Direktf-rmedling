@@ -16,7 +16,7 @@
 			<div class="col-lg-6">
 				<h2>Vård och Omsorg</h2>
 				<p>Direktförmedling hyr ut legitimerade sjuksköterskor för vårduppdrag.
-	        Behöver du personal? Kontakta verksamhetschef Adil på adil@direktformedling.se eller ring….</p>
+					Behöver du personal eller vill söker du jobb? Kontakta verksamhetschef Adil Nassef på adil@direktformedling.se eller ring <a href="tel:0721821770">(+46)72 - 182 17 70</a>.</p>
 			</div>
 			<div class="col-lg-6">
 				<div class="flap-one flap-active">För arbetssökande</div>

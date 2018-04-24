@@ -1,11 +1,10 @@
 <div class="ap-main-container">
 	<!-- Section -->
-	<div class="container-fluid padding">
+	<div class="container-fluid padding ap-more-padding">
 		<div class="row">
 			<div class="col-lg-6">
-				<h2>Sök personal</h2>
-				<p>Lägg in sök personal text här.......</p>
-				<p>Och här.......</p>
+				<h2>Sök ni personal?</h2>
+				<p>Söker ni personal kan ni kontakta oss via formuläret här bredvid eller maila någon av våra verksamhetsansvariga direkt, <a href="index.php?page=contact">kontakta oss</a>.</p>
 			</div>
 			<div class="col-lg-6">
 				<div class="form-container form-container-search-stuff-bg">

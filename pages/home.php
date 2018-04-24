@@ -17,11 +17,12 @@
 	<div class="container-fluid padding">
 		<div class="row welcome text-center">
 			<div class="col-12">
-				<h1 class="display-4">Vi är experter på bemanning</h1>
+				<h1 class="display-4">Era behov – Vår prioritet</h1>
 			</div>
 			<hr>
 			<div class="col-12">
-				<p class="lead">Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok. Lorem ipsum har inte bara överlevt fem århundraden, utan även övergången till elektronisk typografi utan större förändringar.</p>
+				<p class="lead">På Direktförmedling jobbar vi för att få er verksamhet att flyta på i lugna vågor när havet ibland stormar.
+					Vare sig ni behöver snabba och korta lösningar på vakanser eller planerade och långvariga så erbjuder vi alltid er en lösning.</p>
 			</div>
 		</div>
 	</div>
@@ -35,7 +36,7 @@
 					<i class="far fa-check-square"></i><p class="usp-text">Direkta lösningar för er!</p>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-4 usp-container">
-					<i class="far fa-check-square"></i><p class="usp-text">Ert behov – Vår prioritet!</p>
+					<i class="far fa-check-square"></i><p class="usp-text">Era behov – Vår prioritet!</p>
 				</div>
 				<div class="col-sm-12 col-md-4 usp-container">
 					<i class="far fa-check-square"></i><p class="usp-text">Vi kan bemanning!</p>
@@ -48,8 +49,9 @@
 	<div class="container-fluid padding bg-color ap-more-padding">
 		<div class="row">
 			<div class="col-lg-6">
-				<h2>Konsulter med kompetens</h2>
-				<p>I motsättning till vad många tror, är inte Lorem Ipsum slumpvisa ord. Det har sina rötter i ett stycke klassiskt litteratur på latin från 45 år före år 0, och är alltså över 2000 år gammalt.</p><p>Richard McClintock, en professor i latin på Hampden-Sydney College i Virginia, översatte ett av de mer ovanliga orden, consectetur, från ett stycke Lorem Ipsum och fann dess ursprung genom att studera användningen av dessa ord i klassisk litteratur. </p>
+				<h2>Vi har en mångårig branschvana inom ett flertal branscher</h2>
+				<p>Vi som startat Direktförmedling AB har en bred och mångårig erfarenhet inom de branscher vi erbjuder personallösningar på.
+					Denna erfarenhet gör att vi alltid strävar efter att matcha rätt person på rätt plats och rätt uppdrag. Du kan se de verksamheter vi erbjuder personallösningar och tjänster på här till höger.</p>
 				<br>
 			</div>
 			<div class="col-lg-6">
@@ -76,8 +78,8 @@
 				<div class="card">
 					<img class="card-img-top" src="img/df/larare.jpg">
 					<div class="card-body">
-						<h4 class="card-title">Lärarvikarie till Lindskolan</h4>
-						<p class="card-text">Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin.</p>
+						<h4 class="card-title">Skola: Lärare</h4>
+						<p class="card-text">Just nu söker vi vikarier till grundskola och gymnasium.</p>
 						<div class="card-button-container"><a href="#" class="btn btn-outline-secondary">Kontakta oss</a></div>
 					</div>
 				</div>
@@ -87,8 +89,8 @@
 				<div class="card">
 					<img class="card-img-top" src="img/df/waitress.jpg">
 					<div class="card-body">
-						<h4 class="card-title">Kallskänka till restaurang</h4>
-						<p class="card-text">Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin.</p>
+						<h4 class="card-title">Restaurang & Hotell: Servicepersonal</h4>
+						<p class="card-text">Just nu söker vi personal för Restaurang & hotell uppdrag.</p>
 						<div class="card-button-container"><a href="#" class="btn btn-outline-secondary">Kontakta oss</a></div>
 					</div>
 				</div>
@@ -98,8 +100,8 @@
 				<div class="card">
 					<img class="card-img-top" src="img/df/business.jpg">
 					<div class="card-body">
-						<h4 class="card-title">Cloud mananger - IT mäklarna</h4>
-						<p class="card-text">Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin.</p>
+						<h4 class="card-title">Ekonomi: Ekonomer</h4>
+						<p class="card-text">Just nu söker vi redovisningsekonomer för kortare och längre period.</p>
 						<div class="card-button-container"><a href="#" class="btn btn-outline-secondary">Kontakta oss</a></div>
 					</div>
 				</div>
@@ -109,8 +111,8 @@
 				<div class="card">
 					<img class="card-img-top" src="img/df/cleanless.jpg">
 					<div class="card-body">
-						<h4 class="card-title">Hotellstäderska - Morning hotell</h4>
-						<p class="card-text">Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin.</p>
+						<h4 class="card-title">Lokalvård: Städare</h4>
+						<p class="card-text">Just nu söker vi städare för stora och små städuppdrag.</p>
 						<div class="card-button-container"><a href="#" class="btn btn-outline-secondary">Kontakta oss</a></div>
 					</div>
 				</div>
@@ -123,9 +125,11 @@
 	<div class="container-fluid padding ap-more-padding bg-color">
 		<div class="row padding">
 			<div class="col-lg-6">
-				<h2>Fördelar med att hyra personal av oss</h2>
-				<p>Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och </p>
-				<p>blandade dem för att göra ett provexemplar av en bok. Lorem ipsum har inte bara överlevt fem århundraden, utan även övergången till elektronisk typografi utan större.</p>
+				<h2>Varför Bemaning?</h2>
+				<p>- Vid plötsliga vakanser så som föräldraledighet eller sjukdom</p>
+				<p>- Vid förändring av arbetsbelastning</p>
+				<p>- Vid organisationsförändringar</p>
+				<p>Utöver att det spar dig som arbetsgivare tid på att plötsligt hitta rätt medarbetare så kan bemanning via Direktförmedling göra din verksamhet flexibel och fortsätta svara på dina kunders behov. Vi finns till för att underlätta för dig!</p>
 				<br>
 				<a href="index.php?page=search-staff"><button type="button" class="btn btn-primary btn-lg hire-staff-btn">Sök personal</button></a>
 			</div>

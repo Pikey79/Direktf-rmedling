@@ -15,7 +15,7 @@
 			<div class="col-lg-6">
 				<h2>Bygg</h2>
 				<p>Direktförmedling hyr ut snickare, målare, elektriker, betongarbetare och rivare.
-	        Behöver du personal? Kontakta verksamhetschef Arman på arman@direktformedling.se eller ring…</p>
+					Behöver du personal eller söker du jobb? Kontakta verksamhetschef Arman Poya på arman@direktformedling.se eller ring <a href="tel:0705023263">(+46)70 - 782 53 12</a>.</p>
 			</div>
 			<div class="col-lg-6">
 				<div class="flap-one flap-active">För arbetssökande</div>

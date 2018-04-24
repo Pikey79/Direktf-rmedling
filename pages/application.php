@@ -1,11 +1,18 @@
 <div class="ap-main-container">
 	<!-- Section -->
-	<div class="container-fluid padding">
+	<div class="container-fluid padding ap-more-padding">
 		<div class="row">
 			<div class="col-lg-6">
 				<h2>Sök jobb</h2>
-				<p>Lägg in sök jobb text här.......</p>
-				<p>Och här.......</p>
+				<p>På Direktförmedling lägger vi stor vikt vid personliga egenskaper. Vi söker därför dig som gillar att arbeta tillsammans med människor och skapa goda relationer.
+					Du arbetar strukturerat, ansvarsfullt och med en god service.</p>
+				<h4>Krav:</h4>
+				<p>- Behärskar svenska språket i tal och skrift. Engelska är meriterande.</p>
+				<p>- Socialt kompetent.</p>
+				<p>- Grundläggande kunskaper i Officepaketet.</p>
+				<p><strong>Ersättning:</strong> Enligt kollektivavtal.</p>
+				<hr>
+				<p>Registrera ditt CV, vid frågor <a href="index.php?page=contact">kontakta oss</a>.</p>
 			</div>
 			<div class="col-lg-6">
 				<div class="form-container">

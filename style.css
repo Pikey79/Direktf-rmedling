@@ -9,6 +9,7 @@ html, body {
   width: 100%;
   font-family: 'Poppins', sans-serif;
   color: #222;
+  overflow-x: hidden;
 }
 
 .btn-primary {
@@ -28,6 +29,12 @@ html, body {
     background-image: none;
     border-color: #f39231;
     border-radius: 0px;
+}
+
+.btn-outline-secondary:hover {
+    color: #fff;
+    background-color: #da832c;
+    border-color: #da832c;
 }
 
 .jumbotron {
@@ -154,9 +161,9 @@ Homepage
   font-size: 14px;
   padding-left: 2px;
   padding-right: 2px;
-  transition: all 0.5s ease-out;
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
 }
 
 .operations:hover {
@@ -190,6 +197,7 @@ Homepage
 
 .card {
   border-radius: 0px !important;
+  display: block !important;
 }
 
 .card-title {
@@ -466,6 +474,15 @@ label {
 }
 
 /****************************************************
+About us
+****************************************************/
+.image-about-us {
+  display: block;
+  margin: auto;
+}
+
+
+/****************************************************
 Contact
 ****************************************************/
 
@@ -479,13 +496,14 @@ Contact
   margin-bottom: 0.2rem;
 }
 
-.contact-container p:first-child {
+.orange-heading {
   color: #f39231;
   font-size: 18px;
+  font-weight: 500;
 }
 
-.contact-container p:last-child {
-  color: #f39231;
+.responsible-heading {
+  font-weight: 500;
 }
 
 /****************************************************
@@ -496,6 +514,10 @@ footer {
   background: #062834 !important;
   color: #fff !important;
   padding-top: 2rem;
+}
+
+footer .container-fluid {
+  max-width: 1600px;
 }
 
 footer a {
@@ -521,9 +543,9 @@ footer a {
 }
 
 .footer-content-container {
-  width:40%;
-  margin:0 auto;
-  text-align:left;
+  width: 100%;
+  text-align: left;
+  padding-left: 35%;
 }
 
 
@@ -562,18 +584,7 @@ Media Queries
   }
 }
 
-@media screen and (max-width: 992px) and (min-width: 768px) {
-  .fa-check-square {
-    font-size: 40px;
-    top: 0;
-  }
 
-  .usp-text {
-    display: block;
-    font-size: 18px;
-    margin-top: 5px;
-  }
-}
 
 
 @media (max-width: 991.98px) {
@@ -608,6 +619,23 @@ Media Queries
     display: none;
   }
 
+  .logo-mobile {
+    margin-left: 10px;
+  }
+
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .fa-check-square {
+    font-size: 40px;
+    top: 0;
+  }
+
+  .usp-text {
+    display: block;
+    font-size: 18px;
+    margin-top: 5px;
+  }
 }
 
 
@@ -646,8 +674,8 @@ Media Queries
   }
 
   .fa-check-square {
-    font-size: 50px;
-    top: 12px;
+    font-size: 35px;
+    top: 6px;
   }
 
   footer .col-md-4:nth-child(2), footer .col-md-4:nth-child(3) {
@@ -658,9 +686,22 @@ Media Queries
     text-align: center;
   }
 
+  .footer-content-container {
+    width: 100%;
+    padding-left: 0;
+  }
+
 }
 
 @media (max-width: 576px) {
+
+  .banner-container h1 {
+    display: none;
+  }
+
+  .banner-homepage h1 {
+    display: block !important;
+  }
 
   h2 {
     font-size: 1.6rem;

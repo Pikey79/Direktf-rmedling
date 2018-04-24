@@ -7,10 +7,12 @@
 			<div class="col-md-4">
 				<div class="footer-content-container">
 					<img class="footer-logo" src="img/df/df_footer_logo.png">
-					<p class="footer-content">3333-4444-4444</p>
-					<p class="footer-content">email@hotmail.com</p>
-					<p class="footer-content">hejvägen 8</p>
-					<p class="footer-content">151 36 Stockholm</p>
+					<p class="footer-content">Direktförmedling Sverige AB</p>
+					<p class="footer-content">Org.nr: 559146-9639</p>
+					<p class="footer-content">Mellagårdsvägen 13</p>
+					<p class="footer-content">135 54 Tyresö</p>
+					<p class="footer-content">+46 70 - 782 53 06</p>
+					<p class="footer-content">info@direktformedling.se</p>
 				</div>
 			</div>
 

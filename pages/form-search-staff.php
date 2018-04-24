@@ -1,5 +1,5 @@
 <div class="form-container form-container-search-stuff-bg form-container-search-stuff">
-  <h2 class="form-heading">Skicka in din ansökan</h2>
+  <h2 class="form-heading">Boka din personal</h2>
   <form>
     <div class="form-group">
       <input class="form-control" id="company-name" type="text" placeholder="Företagsnamn" id="example-text-input">

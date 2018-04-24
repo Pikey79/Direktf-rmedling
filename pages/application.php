@@ -9,7 +9,7 @@
 			</div>
 			<div class="col-lg-6">
 				<div class="form-container">
-					<h2 class="form-heading">Skicka in din ansökan</h2>
+					<h2 class="form-heading">Sök jobb hos oss</h2>
 					<form>
 						<div class="form-group">
 							<input class="form-control" id="name" type="text" placeholder="Namn" id="example-text-input">

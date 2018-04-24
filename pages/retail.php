@@ -18,7 +18,10 @@
 	        Behöver du personal? Kontakta verksamhetschef Reza på reza@direktformedling.se eller ring….</p>
 			</div>
 			<div class="col-lg-6">
+				<div class="flap-one flap-active">För arbetssökande</div>
+				<div class="flap-two">För arbetsgivare</div>
 				<?php include('pages/form-apply-job.php'); ?>
+				<?php include('pages/form-search-staff.php'); ?>
 			</div>
 		</div>
 	</div>

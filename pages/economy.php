@@ -15,13 +15,13 @@
 			<div class="col-lg-6">
 				<h2>Ekonomi</h2>
 				<p>Direktförmedling hyr ut ekonomer, redovisningsekonomer, banktjänstemän, controllers samt administratörer.
-					Behöver du personal eller söker du jobb? Kontakta verksamhetschef Arman Poya på arman@direktformedling.se eller ring <a href="tel:0705023263">(+46)70 - 782 53 12</a>.</p>
+					Behöver du personal eller söker du jobb? Kontakta verksamhetsansvarig Arman Poya på arman@direktformedling.se eller ring <a href="tel:0705023263">(+46)70 - 782 53 12</a>.</p>
 			</div>
 			<div class="col-lg-6">
-				<div class="flap-one flap-active">För arbetssökande</div>
-				<div class="flap-two">För arbetsgivare</div>
-				<?php include('pages/form-apply-job.php'); ?>
-				<?php include('pages/form-search-staff.php'); ?>
+				<!--<div class="flap-one flap-active">För arbetssökande</div>
+				<div class="flap-two">För arbetsgivare</div>-->
+				<h2>Jobbansökan / Personalansökan</h2>
+				<p>Ansökningsformulär är under uppbyggnad. För jobbansökan eller personalansökan kontakta verksamhetsansvarig för respektive verksamhet, <a href="index.php?page=contact">kontakta oss</a>.</p>
 			</div>
 		</div>
 </div>

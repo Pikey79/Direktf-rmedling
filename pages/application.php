@@ -14,7 +14,7 @@
 				<hr>
 				<p>Registrera ditt CV, vid frågor <a href="index.php?page=contact">kontakta oss</a>.</p>
 			</div>
-			<div class="col-lg-6">
+			<!--<div class="col-lg-6">
 				<div class="form-container">
 					<h2 class="form-heading">Sök jobb hos oss</h2>
 					<form>
@@ -41,6 +41,12 @@
 						<button type="submit" class="btn btn-primary form-submit-btn">Skicka</button>
 					</form>
 
+				</div>-->
+				<div class="col-lg-6">
+					<!--<div class="flap-one flap-active">För arbetssökande</div>
+					<div class="flap-two">För arbetsgivare</div>-->
+					<h2>Jobbansökan</h2>
+					<p>Ansökningsformulär är under uppbyggnad. För jobbansökan kontakta verksamhetsansvarig för respektive verksamhet, <a href="index.php?page=contact">kontakta oss</a>.</p>
 				</div>
 			</div>
 		</div>

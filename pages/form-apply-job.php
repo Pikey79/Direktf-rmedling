@@ -24,6 +24,4 @@
     </div>-->
     <button type="submit" name="submit" class="btn btn-primary form-submit-btn">Skicka</button>
   </form>
-  <?php if ($msg != "") echo "$msg<br><br>"; ?>
-
 </div>

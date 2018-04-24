@@ -6,30 +6,32 @@
 	include_once "PHPMailer/SMTP.php";
 
 	if (isset($_POST['submit'])) {
-		$subject = $_POST['subject'];
+		$name = $_POST['name'];
+		$phone = $_POST['phone'];
 		$email = $_POST['email'];
-		$message = $_POST['message'];
+    $message = $_POST['message'];
 
-		if (isset($_FILES['attachment']['name']) && $_FILES['attachment']['name'] != "") {
-			$file = "attachment/" . basename($_FILES['attachment']['name']);
-			move_uploaded_file($_FILES['attachment']['tmp_name'], $file);
+		if (isset($_FILES['InputCV']['name']) && $_FILES['InputCV']['name'] != "") {
+			$file = "attachment/" . basename($_FILES['InputCV']['name']);
+			move_uploaded_file($_FILES['InputCV']['tmp_name'], $file);
 		} else
 			$file = "";
 
 		$mail = new PHPMailer();
 
-		//if we want to send via SMTP
+	/*	//if we want to send via SMTP
 		$mail->Host = "smtp.gmail.com";
 		//$mail->isSMTP();
 		$mail->SMTPAuth = true;
 		$mail->Username = "senaidbacinovic@gmail.com";
 		$mail->Password = "5C1bcnPkDI4Wd%#";
 		$mail->SMTPSecure = "ssl"; //TLS
-		$mail->Port = 465; //587
+		$mail->Port = 465; //587*/
 
-		$mail->addAddress('hello@codingpassiveincome.com');
+		$mail->addAddress('skabobo@hotmail.com');
 		$mail->setFrom($email);
-		$mail->Subject = $subject;
+		$mail->Name = $name;
+    $mail->Phone = $phone;
 		$mail->isHTML(true);
 		$mail->Body = $message;
 		$mail->addAttachment($file);
@@ -43,7 +45,7 @@
 	}
 ?>
 <!doctype html>
-<html lang="en">
+<!--<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -71,10 +73,4 @@
 		</div>
 	</div>
 </body>
-</html>
-
-
-
-
-
-
+</html>-->

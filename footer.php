@@ -32,10 +32,12 @@
 			<div class="col-md-4">
 				<div class="footer-content-container">
 					<h5>Information</h5>
+					<p class="footer-content"><a href="index.php?page=home">Hem</a></p>
 					<p class="footer-content"><a href="index.php?page=application">Sök jobb</a></p>
+					<p class="footer-content"><a href="index.php?page=search-staff">Sök personal</a></p>
 					<p class="footer-content"><a href="index.php?page=about-us">Om oss</a></p>
 					<p class="footer-content"><a href="index.php?page=contact">Kontakt</a></p>
-					<p class="footer-content"><a href="index.php?page=employee">Anställd</a></p>
+					<!-- <p class="footer-content"><a href="index.php?page=employee">Anställd</a></p> -->
 				</div>
 			</div>
 

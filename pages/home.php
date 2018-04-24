@@ -61,8 +61,8 @@
 				  <div class="col"><a href="index.php?page=economy" class="btn btn-primary btn-lg operations">Ekonomi</a></div>
 				  <div class="col"><a href="index.php?page=construction" class="btn btn-primary btn-lg operations">Bygg</a></div>
 				  <div class="col"><a href="index.php?page=cleaning" class="btn btn-primary btn-lg operations">Lokalvård</a></div>
-				  <div class="col"><a href="index.php?page=restaurant" class="btn btn-primary btn-lg operations">Restaurang & Hotell</a></div>
-				  <div class="col"><a href="index.php?page=care" class="btn btn-primary btn-lg operations">Vård & Omsårg</a></div>
+				  <div class="col"><a href="index.php?page=restaurant" class="btn btn-primary btn-lg operations">Restaurang &amp; Hotell</a></div>
+				  <div class="col"><a href="index.php?page=care" class="btn btn-primary btn-lg operations">Vård &amp; Omsårg</a></div>
 				  <div class="col"><a href="index.php?page=retail" class="btn btn-primary btn-lg operations">Detaljhandel</a></div>
 				</div>
 			</div>
@@ -80,7 +80,7 @@
 					<div class="card-body">
 						<h4 class="card-title">Skola: Lärare</h4>
 						<p class="card-text">Just nu söker vi vikarier till grundskola och gymnasium.</p>
-						<div class="card-button-container"><a href="#" class="btn btn-outline-secondary">Kontakta oss</a></div>
+						<div class="card-button-container"><a href="index.php?page=school" class="btn btn-outline-secondary">Kontakta oss</a></div>
 					</div>
 				</div>
 			</div>
@@ -89,9 +89,9 @@
 				<div class="card">
 					<img class="card-img-top" src="img/df/waitress.jpg">
 					<div class="card-body">
-						<h4 class="card-title">Restaurang & Hotell: Servicepersonal</h4>
-						<p class="card-text">Just nu söker vi personal för Restaurang & hotell uppdrag.</p>
-						<div class="card-button-container"><a href="#" class="btn btn-outline-secondary">Kontakta oss</a></div>
+						<h4 class="card-title">Restaurang &amp; Hotell: Servicepersonal</h4>
+						<p class="card-text">Just nu söker vi personal för Restaurang &amp; hotell uppdrag.</p>
+						<div class="card-button-container"><a href="index.php?page=restaurant" class="btn btn-outline-secondary">Kontakta oss</a></div>
 					</div>
 				</div>
 			</div>
@@ -102,7 +102,7 @@
 					<div class="card-body">
 						<h4 class="card-title">Ekonomi: Ekonomer</h4>
 						<p class="card-text">Just nu söker vi redovisningsekonomer för kortare och längre period.</p>
-						<div class="card-button-container"><a href="#" class="btn btn-outline-secondary">Kontakta oss</a></div>
+						<div class="card-button-container"><a href="index.php?page=economy" class="btn btn-outline-secondary">Kontakta oss</a></div>
 					</div>
 				</div>
 			</div>
@@ -113,7 +113,7 @@
 					<div class="card-body">
 						<h4 class="card-title">Lokalvård: Städare</h4>
 						<p class="card-text">Just nu söker vi städare för stora och små städuppdrag.</p>
-						<div class="card-button-container"><a href="#" class="btn btn-outline-secondary">Kontakta oss</a></div>
+						<div class="card-button-container"><a href="index.php?page=cleaning" class="btn btn-outline-secondary">Kontakta oss</a></div>
 					</div>
 				</div>
 			</div>

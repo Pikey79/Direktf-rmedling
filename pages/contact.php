@@ -19,12 +19,12 @@
 				<a href="tel:0707825312"><p>(+46)70 - 782 53 12</p></a>
 				<p>arman@direktformedling.se</p>
 				<br>
-				<p class="responsible-heading">Verksamhetsansvarig Hotell & Restaurang, Detaljhandel och Lokalvård</p>
+				<p class="responsible-heading">Verksamhetsansvarig Hotell &amp; Restaurang, Detaljhandel och Lokalvård</p>
 				<p>Reza Djam</p>
 				<a href="tel:0707825306"><p>(+46)70 - 782 53 06</p></a>
 				<p>reza@direktformedling.se</p>
 				<br>
-				<p class="responsible-heading">Verksamhetsansvarig Vård & Omsorg</p>
+				<p class="responsible-heading">Verksamhetsansvarig Vård &amp; Omsorg</p>
 				<p>Adil Nassef</p>
 				<a href="tel:0721821770"><p>(+46)72 - 182 17 70</p></a>
 				<p>adil@direktformedling.se</p>

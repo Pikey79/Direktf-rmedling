@@ -9,7 +9,7 @@
 					<img class="footer-logo" src="img/df/df_footer_logo.png">
 					<p class="footer-content">Direktförmedling Sverige AB</p>
 					<p class="footer-content">Org.nr: 559146-9639</p>
-					<p class="footer-content">Mellagårdsvägen 13</p>
+					<p class="footer-content">Mellangårdsvägen 13</p>
 					<p class="footer-content">135 54 Tyresö</p>
 					<p class="footer-content">(+46)70 - 782 53 06</p>
 					<p class="footer-content">info@direktformedling.se</p>

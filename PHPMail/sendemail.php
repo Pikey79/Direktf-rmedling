@@ -43,8 +43,9 @@
 
 		unlink($file);
 	}
+
 ?>
-<!doctype html>
+
 <!--<html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -60,7 +61,7 @@
 			<div class="col-md-6 col-md-offset-3" align="center">
 				<img src="images/logo.png"><br><br>
 
-                <?php if ($msg != "") echo "$msg<br><br>"; ?>
+
 
 				<form method="post" action="sendemail.php" enctype="multipart/form-data">
 					<input class="form-control" name="subject" placeholder="Subject..."><br>

@@ -1,4 +1,6 @@
 <!-- Section -->
+<?php include('PHPMail/sendemail.php'); ?>
+
 <div class="container-fluid" style="padding: 0px;">
 	 <figure>
 			<div class="banner-container banner-school">

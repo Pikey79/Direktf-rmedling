@@ -1,4 +1,3 @@
-<?php include('PHPMailer/sendemail.php'); ?>
 
 <div class="form-container form-container-apply-job">
   <h2 class="form-heading">Sök jobb hos oss</h2>

@@ -11,7 +11,7 @@
 					<p class="footer-content">Org.nr: 559146-9639</p>
 					<p class="footer-content">Mellagårdsvägen 13</p>
 					<p class="footer-content">135 54 Tyresö</p>
-					<p class="footer-content">+46 70 - 782 53 06</p>
+					<p class="footer-content">(+46)70 - 782 53 06</p>
 					<p class="footer-content">info@direktformedling.se</p>
 				</div>
 			</div>
@@ -20,7 +20,7 @@
 				<div class="footer-content-container">
 				    <h5>Verksamheter</h5>
 					<p class="footer-content"><a href="index.php?page=school">Skola</a></p>
-					<p class="footer-content"><a href="index.php?page=restaurant">Restaurang och Hotell</a></p>
+					<p class="footer-content"><a href="index.php?page=restaurant">Restaurang &amp; Hotell</a></p>
 					<p class="footer-content"><a href="index.php?page=care">Vård och Omsorg</a></p>
 					<p class="footer-content"><a href="index.php?page=economy">Ekonomi</a></p>
 					<p class="footer-content"><a href="index.php?page=construction">Bygg</a></p>

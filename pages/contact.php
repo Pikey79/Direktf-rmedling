@@ -4,14 +4,14 @@
 		<div class="row">
 			<div class="col-lg-6 left-column-text contact-container">
 				<p class="orange-heading">Direktförmedling Sverige AB</p>
-				<p>Mellagårdsvägen 13</p>
+				<p>Mellangårdsvägen 13</p>
 				<p>135 54 Tyresö</p>
-				<a href="tel:0707825306"><p>+46 70 - 782 53 06</p></a>
+				<a href="tel:0707825306"><p>(+46)70 - 782 53 06</p></a>
 				<p>info@direktformedling.se</p>
 				<hr>
 				<p class="responsible-heading">Verksamhetsansvarig Skola</p>
 				<p>Krister Espalani</p>
-				<a href="tel:0705023263"><p>(+46)70 - 502 32 63</p></a>
+				<a href="tel:0735023263"><p>(+46)73 - 502 32 63</p></a>
 				<p>krister@direktformedling.se</p>
 				<br>
 				<p class="responsible-heading">Verksamhetsansvarig Ekonomi och Bygg</p>

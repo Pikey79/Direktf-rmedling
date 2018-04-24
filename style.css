@@ -97,6 +97,7 @@ hr.light-100 {
 .ap-main-container {
   max-width: 1600px;
   margin: 0 auto;
+  min-height: 500px;
 }
 
 /****************************************************
@@ -772,6 +773,10 @@ Media Queries
 
   .flap-two {
     left: 141px;
+  }
+
+  .ap-main-container {
+    min-height: auto;
   }
 }
 

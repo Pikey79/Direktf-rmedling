@@ -51,19 +51,19 @@
 			<div class="col-lg-6">
 				<h2>Vi har en mångårig branschvana inom ett flertal branscher</h2>
 				<p>Vi som startat Direktförmedling AB har en bred och mångårig erfarenhet inom de branscher vi erbjuder personallösningar på.
-					Denna erfarenhet gör att vi alltid strävar efter att matcha rätt person på rätt plats och rätt uppdrag. Du kan se de verksamheter vi erbjuder personallösningar och tjänster på här till höger.</p>
+					Denna erfarenhet gör att vi alltid strävar efter att matcha rätt person på rätt plats och rätt uppdrag. Du kan se de verksamheter vi erbjuder personallösningar och tjänster.</p>
 				<br>
 			</div>
 			<div class="col-lg-6">
 				<h2>Sju olika verksamheter</h2>
 				<div class="row list-button-operation">
 				  <div class="col"><a href="index.php?page=school" class="btn btn-primary btn-lg operations">Skola</a></div>
+					<div class="col"><a href="index.php?page=care" class="btn btn-primary btn-lg operations">Vård &amp; Omsorg</a></div>
 				  <div class="col"><a href="index.php?page=economy" class="btn btn-primary btn-lg operations">Ekonomi</a></div>
-				  <div class="col"><a href="index.php?page=construction" class="btn btn-primary btn-lg operations">Bygg</a></div>
 				  <div class="col"><a href="index.php?page=cleaning" class="btn btn-primary btn-lg operations">Lokalvård</a></div>
 				  <div class="col"><a href="index.php?page=restaurant" class="btn btn-primary btn-lg operations">Restaurang &amp; Hotell</a></div>
-				  <div class="col"><a href="index.php?page=care" class="btn btn-primary btn-lg operations">Vård &amp; Omsårg</a></div>
 				  <div class="col"><a href="index.php?page=retail" class="btn btn-primary btn-lg operations">Detaljhandel</a></div>
+					<div class="col"><a href="index.php?page=construction" class="btn btn-primary btn-lg operations">Bygg</a></div>
 				</div>
 			</div>
 		</div>

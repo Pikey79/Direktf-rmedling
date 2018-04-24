@@ -18,7 +18,7 @@
 				<p>Direktförmedling hyr ut behöriga och obehöriga vikarier till förskola, grundskola och gymnasium.
 					Våra obehöriga lärare har alltid tidigare erfarenhet från arbete på skola eller har påbörjat lärarutbildningen.
 					Vi hjälper även till med bemanning inom elevhälsa och övrig skolpersonal. Behöver du lärare till din skola eller
-					vill du jobba som vikarie? Kontakta verksamhetsansvarig Krister Espalani på krister@direktformedling.se eller ring <a href="tel:0705023263">(+46)70 - 502 32 63</a>.</p>
+					vill du jobba som vikarie? Kontakta verksamhetsansvarig Krister Espalani på krister@direktformedling.se eller ring <a href="tel:0735023263">(+46)73 - 502 32 63</a>.</p>
 				<p>Obligatorisk blankett för belastningsregister för dig som ska arbeta på skola eller förskola finns att hämta hem <a href="https://polisen.se/siteassets/blanketter/polisens-blanketter-442-5.pdf" target="_blank">HÄR</a>.</p>
 			</div>
 			<div class="col-lg-6">

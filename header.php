@@ -9,7 +9,6 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUxHUTVKEDFQEp0tA67cmUUafeolofYpM&callback=initMap"></script>
 	<link href="style.css" rel="stylesheet">
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -38,12 +37,12 @@
 					<a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Verksamheter</a>
 					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
 						<a class="dropdown-item" href="index.php?page=school">Skola</a>
+						<a class="dropdown-item" href="index.php?page=care">Vård &amp; Omsorg</a>
 						<a class="dropdown-item" href="index.php?page=restaurant">Restaurang och Hotell</a>
-						<a class="dropdown-item" href="index.php?page=care">Vård och Omsorg</a>
-						<a class="dropdown-item" href="index.php?page=economy">Ekonomi</a>
-						<a class="dropdown-item" href="index.php?page=construction">Bygg</a>
+						<a class="dropdown-item" href="index.php?page=economy">Ekonomi</a>					
 						<a class="dropdown-item" href="index.php?page=cleaning">Lokalvård</a>
 						<a class="dropdown-item" href="index.php?page=retail">Detaljhandel</a>
+						<a class="dropdown-item" href="index.php?page=construction">Bygg</a>
 					</div>
 				</li>
 				<li class="nav-item application-page">

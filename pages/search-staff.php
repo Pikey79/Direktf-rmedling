@@ -4,7 +4,7 @@
 		<div class="row">
 			<div class="col-lg-6">
 				<h2>Söker ni personal?</h2>
-				<p>Söker ni personal kan ni kontakta oss via formuläret här bredvid eller maila någon av våra verksamhetsansvariga direkt, <a href="index.php?page=contact">kontakta oss</a>.</p>
+				<p>Söker ni personal kan ni kontakta oss via formuläret eller maila någon av våra verksamhetsansvariga direkt, <a href="index.php?page=contact">kontakta oss</a>.</p>
 			</div>
 			<!--<div class="col-lg-6">
 				<div class="form-container form-container-search-stuff-bg">

@@ -48,7 +48,7 @@
 
 			<div class="col-12">
 				<hr class="light-100">
-				<h5 class="footer-copyright">&copy; Direktförmedling AB - Alla rättigheter förbehållna</h5>
+				<h5 class="footer-copyright">&copy; Direktförmedling Sverige AB - Alla rättigheter förbehållna</h5>
 			</div>
 
 		</div>

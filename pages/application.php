@@ -6,11 +6,6 @@
 				<h2>Sök jobb</h2>
 				<p>På Direktförmedling lägger vi stor vikt vid personliga egenskaper. Vi söker därför dig som gillar att arbeta tillsammans med människor och skapa goda relationer.
 					Du arbetar strukturerat, ansvarsfullt och med en god service.</p>
-				<h4>Krav:</h4>
-				<p>- Behärskar svenska språket i tal och skrift. Engelska är meriterande.</p>
-				<p>- Socialt kompetent.</p>
-				<p>- Grundläggande kunskaper i Officepaketet.</p>
-				<p><strong>Ersättning:</strong> Enligt kollektivavtal.</p>
 				<hr>
 				<p>Registrera ditt CV, vid frågor <a href="index.php?page=contact">kontakta oss</a>.</p>
 			</div>

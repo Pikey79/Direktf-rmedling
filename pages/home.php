@@ -21,7 +21,7 @@
 			</div>
 			<hr>
 			<div class="col-12">
-				<p class="lead">På Direktförmedling jobbar vi för att få er verksamhet att flyta på i lugna vågor när havet ibland stormar.
+				<p class="lead">På Direktförmedling jobbar vi för att få er verksamhet att flyta på i stillsamma vågor när havet ibland stormar.
 					Vare sig ni behöver snabba och korta lösningar på vakanser eller planerade och långvariga så erbjuder vi alltid er en lösning.</p>
 			</div>
 		</div>
@@ -51,7 +51,7 @@
 			<div class="col-lg-6">
 				<h2>Vi har en mångårig branschvana inom ett flertal branscher</h2>
 				<p>Vi som startat Direktförmedling AB har en bred och mångårig erfarenhet inom de branscher vi erbjuder personallösningar på.
-					Denna erfarenhet gör att vi alltid strävar efter att matcha rätt person på rätt plats och rätt uppdrag. Du kan se de verksamheter vi erbjuder personallösningar och tjänster.</p>
+					Denna erfarenhet gör att vi alltid strävar efter att matcha rätt person på rätt plats och rätt uppdrag. Här kan du se de verksamheter vi erbjuder personallösningar och tjänster på.</p>
 				<br>
 			</div>
 			<div class="col-lg-6">
@@ -76,7 +76,7 @@
 		<div class="row">
 			<div class="col-md-3 card-container">
 				<div class="card">
-					<img class="card-img-top" src="img/df/larare.jpg">
+					<img class="card-img-top" src="img/df/teacher.jpg">
 					<div class="card-body">
 						<h4 class="card-title">Skola: Lärare</h4>
 						<p class="card-text">Just nu söker vi vikarier till grundskola och gymnasium.</p>
@@ -134,7 +134,7 @@
 				<a href="index.php?page=search-staff"><button type="button" class="btn btn-primary btn-lg hire-staff-btn">Sök personal</button></a>
 			</div>
 			<div class="col-lg-6 hire-staff">
-				<img src="img/df/personal.jpg" class="img-fluid">
+				<img src="img/df/staff.png" class="img-fluid">
 			</div>
 		</div>
 	</div>

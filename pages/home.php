@@ -125,7 +125,7 @@
 	<div class="container-fluid padding ap-more-padding bg-color">
 		<div class="row padding">
 			<div class="col-lg-6">
-				<h2>Varför Bemaning?</h2>
+				<h2>Varför Bemanning?</h2>
 				<p>- Vid plötsliga vakanser så som föräldraledighet eller sjukdom</p>
 				<p>- Vid förändring av arbetsbelastning</p>
 				<p>- Vid organisationsförändringar</p>

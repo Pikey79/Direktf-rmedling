@@ -3,7 +3,7 @@
 	 <figure>
 			<div class="banner-container banner-homepage">
 				<div class="banner-heading-container">
-					<h1 class="display-2">Direktförmedling AB</h1>
+					<h1 class="display-2">Direktförmedling</h1>
 					<h3>Vi kan bemanning</h3>
 					<a href="index.php?page=search-staff"><button type="button" class="btn btn-primary btn-lg stuff-button">Sök personal</button></a>
 					<a href="index.php?page=application"><button type="button" class="btn btn-primary btn-lg">Sök jobb</button></a>

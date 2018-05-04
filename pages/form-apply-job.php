@@ -14,6 +14,18 @@
     <div class="form-group">
       <textarea class="form-control" id="exampleTextarea" placeholder="Meddelande" rows="3" name="message"></textarea>
     </div>
+    <p>
+       <select class="selectpicker" id="operations">
+         <option value = "0" id ="operations-select">Välj verksamhet</option>
+         <option value = "1" id ="school-select">Skola</option>
+         <option value = "2" id ="care-select">Vård & Omsorg</option>
+         <option value = "3" id ="restaurant-select">Restaurang & Hotell</option>
+         <option value = "4" id ="economy-select">Ekonomi</option>
+         <option value = "5" id ="cleaning-select">Lokalvård</option>
+         <option value = "6" id ="retail-select">Detaljhandel</option>
+         <option value = "7" id ="construction-select">Bygg</option>
+       </select>
+     </p>
     <div class="form-group">
       <label for="exampleInputFile">Ladda upp ditt CV</label>
       <input type="file" class="form-control-file" id="InputCV" aria-describedby="fileHelp" name="InputCV">

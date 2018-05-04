@@ -4,6 +4,25 @@
 General
 ****************************************************/
 
+.selectpicker {
+  text-transform: none;
+  color: #6c757d;
+  background: #fff;
+  border-radius: 0px;
+}
+
+.fontawesome-select {
+ font-family: 'FontAwesome', 'Helvetica';
+}
+
+.operations i{
+ background-size: 22px 19px;
+ background-position: 11px 8px;
+ background-repeat: no-repeat;
+ color: black;
+}
+
+
 .employee-page {
   display: none;
 }

@@ -1,3 +1,8 @@
+<?php
+	include('db_connect.php');
+	include('form_db_connect.php');
+?>
+
 <!-- Section -->
 <div class="container-fluid" style="padding: 0px;">
 	 <figure>
@@ -21,7 +26,7 @@
 					vill du jobba som vikarie? Kontakta verksamhetsansvarig Krister Espalani på krister@direktformedling.se eller ring <a href="tel:0735023263">(+46)73 - 502 32 63</a>.</p>
 				<p>Obligatorisk blankett för belastningsregister för dig som ska arbeta på skola eller förskola finns att hämta hem <a href="https://polisen.se/siteassets/blanketter/polisens-blanketter-442-5.pdf" target="_blank">HÄR</a>.</p>
 			</div>
-			<div class="col-lg-6">
+			<div class="col-lg-6 form-margin">
 				<div class="flap-one flap-active">För arbetssökande</div>
 				<div class="flap-two">För arbetsgivare</div>
 				<?php include('form-apply-job.php'); ?>

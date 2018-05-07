@@ -1,3 +1,53 @@
+<?php include('header.php'); ?>
+
+<style type="text/css">
+
+h1, h2 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px 0;
+  font-weight: 400;
+}
+
+table {
+  width: 90%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-family: 'Poppins', sans-serif;
+  /*table-layout: fixed;*/
+}
+
+table tr th {
+  background: #f39231;
+  color: #fdfdfd;
+  font-weight: 400;
+  border: 1px solid #f39231;
+  padding: 10px;
+  font-size: 18px;
+}
+
+table, td {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 16px;
+  color: #222;
+}
+
+tr:nth-child(odd) {
+  background: #f5f5f5;
+}
+
+tr:hover {
+  background: #ddd;
+}
+
+td a {
+  color: green;
+}
+
+</style>
+
+
 <?php
 $user = "root";
 $password = "";
@@ -14,9 +64,13 @@ $result= mysql_query( "SELECT id, name, phone, email, message, operation, filena
 or die("SELECT Error: ".mysql_error());
 
 $c_result= mysql_query( "SELECT id, company_name, name, phone, email, message FROM $c_table ORDER BY ID desc" )
-or die("SELECT Error: ".mysql_error());
+or die("SELECT Error: ".mysql_error()); ?>
+<h1>Adminpanel</h1>
+<hr>
+<h2>Jobbansökan</h2> 
 
-print "<table border=1>\n";
+<?php
+print "<table border=0>\n";
 print "<tr>
   <th>ID</th>
   <th>Namn</th>
@@ -49,7 +103,31 @@ while ($row = mysql_fetch_array($result)){
   echo "<div>$form_email</div>";
   print "</td>\n";
   print "\t<td>\n";
-  echo "<div>$form_message</div>";
+  /*echo "<div>$form_message</div>";*/
+  echo "<!-- Button trigger modal -->
+    <button type='button' class='btn btn-primary' data-toggle='modal' data-target='#exampleModalLong'>
+      Meddelande
+    </button>
+
+    <!-- Modal -->
+    <div class='modal fade' id='exampleModalLong' tabindex='-1' role='dialog' aria-labelledby='exampleModalLongTitle' aria-hidden='true'>
+      <div class='modal-dialog' role='document'>
+        <div class='modal-content'>
+          <div class='modal-header'>
+            <h5 class='modal-title' id='exampleModalLongTitle'>Meddelande</h5>
+            <button type='button' class='close' data-dismiss='modal' aria-label='Close'>
+              <span aria-hidden='true'>&times;</span>
+            </button>
+          </div>
+          <div class='modal-body'>
+            echo '<div>$form_message</div>';
+          </div>
+          <div class='modal-footer'>
+            <button type='button' class='btn btn-secondary' data-dismiss='modal'>Stäng</button>
+          </div>
+        </div>
+      </div>
+    </div>";
   print "</td>\n";
   print "\t<td>\n";
   echo "<div>$form_operation</div>";
@@ -59,11 +137,12 @@ while ($row = mysql_fetch_array($result)){
   print "</td>\n";
   print "</tr>\n";
 }
-print "</table>\n";
+print "</table>\n"; ?>
 
+<h2>Företagsansökan</h2> 
 
-
-print "<table border=1>\n";
+<?php
+print "<table border=0>\n";
 print "<tr>
   <th>ID</th>
   <th>Företagsnamn</th>

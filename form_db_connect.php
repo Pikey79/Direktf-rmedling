@@ -1,4 +1,5 @@
 <?php
+
 // FORM SEARCH STAFF
 if  (isset($_POST['company_name'])
 && isset($_POST['c_name'])
@@ -19,7 +20,7 @@ if  (isset($_POST['company_name'])
 	";
 
 	if ($db->query($sql) === TRUE) {
-		echo "<script type= 'text/javascript'>alert('Tack för ditt meddelande');</script>";
+		echo "<script type= 'text/javascript'>$('body').addClass('show-success');</script>";
 	} else {
 		echo "<script type= 'text/javascript'>alert('Error: " . $sql . "<br>" . $db->error."');</script>";
 	}
@@ -41,12 +42,14 @@ if  (isset($_POST['name'])
   $operation = mysqli_real_escape_string($db, $_POST['operation']);
 
   // Upload File
-  $file_name= $_FILES['file']['name'];
+  $file_name= time().uniqid(rand()).preg_replace("/[^A-Za-z0-9\_\-\.]/", '', basename($_FILES['file']['name']));
   $tmp_name= $_FILES['file']['tmp_name'];
   $submitbutton= $_POST['submit'];
   $position= strpos($file_name, ".");
   $fileextension= substr($file_name, $position + 1);
   $fileextension= strtolower($fileextension);
+
+
 
   if (isset($file_name)) {
 
@@ -65,7 +68,7 @@ if  (isset($_POST['name'])
 	";
 
 	if ($db->query($sql) === TRUE) {
-		echo "<script type= 'text/javascript'>alert('Tack för ditt meddelande');</script>";
+		echo "<script type= 'text/javascript'>$('body').addClass('show-success');</script>";
 	} else {
 		echo "<script type= 'text/javascript'>alert('Error: " . $sql . "<br>" . $db->error."');</script>";
 	}

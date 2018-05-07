@@ -2,7 +2,6 @@
   include "./db.php";
   session_start();
   if (isset($_POST["sub"])) {
-    echo "hedddddd";
     $username = $_POST["txtuser"];
     $password = md5($_POST["txtpass"]);
 
@@ -14,7 +13,7 @@
       $_SESSION["login_user"]=$username;
       header("location:welcome.php");
     } else {
-      header("location:index.php?invalid=Your username or password are incorrect | please try again");
+      header("location:index.php?invalid=Användarnamnet eller lösenordet är felaktigt!");
     }
 
   }

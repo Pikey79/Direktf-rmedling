@@ -27,7 +27,7 @@
        </select>
      </p>
     <div class="form-group">
-      <label for="exampleInputFile">Ladda upp ditt CV</label>
+      <label for="exampleInputFile">Ladda upp CV / Personligtbrev</label>
       <input type="file" class="form-control-file" id="InputCV" aria-describedby="fileHelp" name="file">
     </div>
     <!--<div class="form-group">

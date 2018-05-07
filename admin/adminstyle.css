@@ -1,0 +1,119 @@
+/****************************************************
+General
+****************************************************/
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+}
+
+.btn-primary {
+  background-color: #f39231;
+  border: 1px solid #f39231;
+  border-radius: 0 !important;
+}
+
+.btn-primary:hover {
+  background-color: #da832c;
+  border: 1px solid #da832c;
+}
+
+.btn-outline-secondary {
+    color: #222;
+    background-color: transparent;
+    background-image: none;
+    border-color: #f39231;
+    border-radius: 0px;
+}
+
+.btn-outline-secondary:hover {
+    color: #fff;
+    background-color: #da832c;
+    border-color: #da832c;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px 0;
+  font-weight: 400;
+}
+
+th {
+  text-align: center;
+}
+
+/****************************************************
+Login form
+****************************************************/
+
+.login-form {
+  margin-top: 100px;
+}
+
+.input-text {
+  height: 26px;
+  width: 250px;
+}
+.input-password {
+  height: 26px;
+  width: 250px;
+}
+.input-submit {
+  height: 39px;
+  width: 100%;
+  background: indianred;
+  color: white;
+  text-decoration: none;
+  border: none;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.wrong-message {
+  margin-top: 30px;
+}
+
+
+
+/****************************************************
+CV admin
+****************************************************/
+
+.logout {
+  position: absolute;
+  right: 70px;
+  top: 24px;
+  font-size: 20px;
+}
+
+
+table.CV-table {
+  width: 90%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-family: 'Poppins', sans-serif;
+  /*table-layout: fixed;*/
+}
+
+table.CV-table tr th {
+  background: #f39231;
+  color: #fdfdfd;
+  font-weight: 400;
+  border: 1px solid #f39231;
+  padding: 10px;
+  font-size: 18px;
+}
+
+table.CV-table, table.CV-table td {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 16px;
+  color: #222;
+}
+
+table.CV-table tr:nth-child(odd) {
+  background: #f5f5f5;
+}

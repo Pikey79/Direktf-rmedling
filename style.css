@@ -119,6 +119,57 @@ hr.light-100 {
   min-height: 500px;
 }
 
+
+/****************************************************
+Popup
+****************************************************/
+.success-popup {
+  position: fixed;
+  z-index: 9999;
+  background: white;
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid black;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  display: none;
+
+}
+
+
+.popup-button {
+    padding: 5px;
+    text-align: center;
+    background: #c8c8c8;
+    width: 80%;
+    margin: 20px auto 0;
+    cursor: pointer;
+}
+
+.black-overlay {
+  display: none;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 9997;
+  -moz-opacity: 0.5;
+  opacity: .50;
+  filter: alpha(opacity=50);
+  cursor: pointer;
+}
+
+.show-success .success-popup, .show-success .black-overlay {
+  display: block !important;
+}
+
 /****************************************************
 Nav
 ****************************************************/

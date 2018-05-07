@@ -37,3 +37,8 @@ if(window.location.href.indexOf("school") > -1 || window.location.href.indexOf("
 } else {
   $(".home-page").addClass("active");
 }
+
+// Popup
+$("body").on("click", ".black-overlay, .popup-button", function () {
+  $("body").removeClass("show-success");
+});

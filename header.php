@@ -21,6 +21,10 @@
 </head>
 <body>
 
+<!-- Popup -->
+<div class="black-overlay"></div>
+<div class="success-popup">Tack för din ansökan!<div class="popup-button">Stäng</div></div>
+
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light">
 	<div class="container-fluid">

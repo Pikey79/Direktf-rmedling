@@ -117,3 +117,19 @@ table.CV-table, table.CV-table td {
 table.CV-table tr:nth-child(odd) {
   background: #f5f5f5;
 }
+
+.respond-btn, .delete-btn  {    
+  padding: 3px 8px;
+  color: #fff;
+}
+
+.respond-btn {
+  background-color: blue;
+  border-color: blue;
+  margin-right: 22px;
+}
+
+.delete-btn {
+  background-color: #cc3300;
+  border-color: #cc3300;
+}

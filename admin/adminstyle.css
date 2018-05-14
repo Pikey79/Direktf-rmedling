@@ -118,12 +118,12 @@ table.CV-table tr:nth-child(odd) {
   background: #f5f5f5;
 }
 
-.respond-btn, .delete-btn  {    
+.respond-btn, .delete-btn, .unmark-btn  {
   padding: 3px 8px;
   color: #fff;
 }
 
-.respond-btn {
+.respond-btn, .unmark-btn {
   background-color: blue;
   border-color: blue;
   margin-right: 22px;
@@ -132,4 +132,24 @@ table.CV-table tr:nth-child(odd) {
 .delete-btn {
   background-color: #cc3300;
   border-color: #cc3300;
+}
+
+.unmark-btn {
+  display: none;
+}
+
+.unmark-btn.show-button{
+  display: inline-block;
+}
+
+.marked-row {
+  display: none;
+}
+
+.respond-marked {
+  background: #00ff98 !important;
+}
+
+.respond-btn.hide-button {
+  display: none;
 }

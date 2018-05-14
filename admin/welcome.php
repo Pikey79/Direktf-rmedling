@@ -20,11 +20,39 @@ session_start();
     @mysql_select_db($dbase) or die("Unable to select database");*/
     include('db.php');
 
-    $query= "SELECT id, time, name, phone, email, message, operation, filename FROM apply_job ORDER BY ID desc";
+    $query= "SELECT id, time, name, phone, email, message, operation, filename, marked FROM apply_job ORDER BY ID desc";
     $result = mysqli_query($conn, $query);
 
     $c_query= "SELECT id, time, company_name, name, phone, email, message FROM search_staff ORDER BY ID desc";
     $c_result = mysqli_query($conn, $c_query);
+
+
+    // Mark a line
+    if (isset($_POST['mark'])) {
+    # Svarat was clicked
+      if(isset($_POST["id"])) {
+      	$id = mysqli_real_escape_string($conn, $_POST['id']);
+      	$query = "UPDATE apply_job SET marked = 'marked' WHERE id = $id";
+      	mysqli_query($conn, $query);
+
+        if ($conn->query($query) === TRUE) {
+          header("Refresh:0");
+        }
+      }
+    } elseif (isset($_POST['unmark'])) {
+    # Avmarkera was clicked
+      if(isset($_POST["id"])) {
+        $id = mysqli_real_escape_string($conn, $_POST['id']);
+        $query = "UPDATE apply_job SET marked = 'xxx' WHERE id = $id";
+        mysqli_query($conn, $query);
+
+        if ($conn->query($query) === TRUE) {
+          header("Refresh:0");
+        }
+      }
+    }
+
+
 
     echo "<h1>Adminpanel</h1><a href='logout.php' class='logout'>Logga ut</a><hr><h2>Jobbansökan</h2>";
 
@@ -50,6 +78,7 @@ session_start();
       $form_operation = $row['operation'];
       $files_field= $row['filename'];
       $files_show= "../Uploads/files/$files_field";
+      $form_marked = $row['marked'];
       print "<tr>\n";
       print "\t<td>\n";
       echo "<div>$form_id</div>";
@@ -109,7 +138,11 @@ session_start();
       echo "<div align=center><a class='link-CV' href='$files_show'>Personligtbrev / CV</a></div>";
       print "</td>\n";
       print "\t<td>\n";
-      echo "<button type='button' class='btn respond-btn'>Svarat</button><button type='button' class='btn delete-btn'>Radera</button>";
+      echo "<form method='POST'>";
+      echo "<div class='marked-row'>$form_marked</div>";
+      echo '<input type="hidden" name="id" value="'.$row['id'].'">';
+      echo "<button type='submit' name='mark' class='btn respond-btn'>Svarat</button><button type='submit' name='unmark' class='btn unmark-btn'>Avmarkera</button><button type='button' class='btn delete-btn'>Radera</button>";
+      echo "</form>";
       print "</td>\n";
       print "</tr>\n";
     }

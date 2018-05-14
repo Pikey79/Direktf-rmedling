@@ -23,10 +23,6 @@ General
 }
 
 
-.employee-page {
-  display: none;
-}
-
 html, body {
   height: 100%;
   width: 100%;
@@ -137,7 +133,7 @@ Popup
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  display: none;
+  display: none !important;
 
 }
 
@@ -479,7 +475,7 @@ label {
   margin-bottom: 0.5rem;
 }
 
-#name, #phone, #email, #exampleTextarea, #company-name {
+#name, #phone, #email, #exampleTextarea, #company-name, #employee-lock {
   background-size: 22px 19px;
   background-position: 11px 8px;
   background-repeat: no-repeat;
@@ -503,6 +499,10 @@ label {
 
 #exampleTextarea {
   background-image: url('img/df/message-form.svg');
+}
+
+#employee-lock {
+  background-image: url('img/df/lock.svg');
 }
 
 /** Flap and Form changes **/
@@ -579,6 +579,15 @@ Contact
 .responsible-heading {
   font-weight: 500;
 }
+
+/****************************************************
+Employee
+****************************************************/
+
+.wrong-message {
+  display: none;
+}
+
 
 /****************************************************
 Footer

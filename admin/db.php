@@ -2,7 +2,8 @@
 
 // Create connection
 $conn = mysqli_connect("localhost", "root", "", "direkformedling");
-//$db = mysqli_connect("abbashodroj-219305.mysql.binero.se", "219305_im16622", "hodroj13", "219305-abbashodroj");
+//$conn = mysqli_connect("direktformedling.se.mysql", "direktformedling_se", "BH6kwwpaeL3WQhikpDx9NQj3", "direktformedling_se");
+
 
 mysqli_query($conn, "SET NAMES utf8");
 

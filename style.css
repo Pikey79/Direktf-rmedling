@@ -112,7 +112,7 @@ hr.light-100 {
 .ap-main-container {
   max-width: 1600px;
   margin: 0 auto;
-  min-height: 500px;
+  min-height: 600px;
 }
 
 
@@ -584,6 +584,39 @@ Contact
 Employee
 ****************************************************/
 
+.employee-heading {
+  color: #f39231;
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: -4px;
+}
+
+.employee-logout {
+  color: #007bff !important;
+}
+
+.employee-logout:hover {
+  text-decoration: underline !important;
+}
+
+.table thead th {
+  vertical-align: middle;
+  border: none;
+  font-weight: 400;
+}
+
+.employee-th {
+  background: #f39231;
+  color:white;
+}
+
+.employee-footer {
+  padding-top: 0rem;
+}
+
+.employee-footer .container-fluid.padding {
+  padding-bottom: 12px;
+}
 
 
 /****************************************************

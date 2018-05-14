@@ -22,7 +22,31 @@ if (isset($_GET['page'])) {
 
     case 'school':
         include ('school.php');
+        break;    
+
+    case 'care':
+        include ('care.php');
         break;
+
+    case 'restaurant':
+        include ('restaurant.php');
+        break;
+        
+    case 'economy':
+        include ('economy.php');
+        break;
+        
+    case 'cleaning':
+        include ('cleaning.php');
+        break;
+        
+    case 'retail':
+        include ('retail.php');
+        break;
+        
+    case 'construction':
+        include ('construction.php');
+        break;                    
 
     default:
         include ('employee-welcome.php');

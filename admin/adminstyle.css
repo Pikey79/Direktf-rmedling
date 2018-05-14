@@ -45,6 +45,70 @@ th {
   text-align: center;
 }
 
+.ap-main-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  min-height: 600px;
+}
+
+.padding {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+/****************************************************
+Nav
+****************************************************/
+
+.navbar {
+  padding: 0 .8rem;
+  -webkit-box-shadow: 0 0 8px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 0 8px rgba(0,0,0,0.3);
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
+.navbar-light .navbar-brand {
+  padding-bottom: 0;
+  color: #f39231;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: #f39231;
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+
+.log-out {
+  color: #007bff !important;
+}
+
+.log-out:hover {
+  text-decoration: underline !important;
+}
+
+.nav-link {
+  font-size: 1.1em !important;
+}
+
+.dropdown-menu {
+  background: #f8f9fa;
+  border: none;
+  top: 93% !important;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #f39231;
+}
+
+.admin-heading {
+  padding: 0;
+}
+
+
 /****************************************************
 Login form
 ****************************************************/
@@ -121,17 +185,20 @@ table.CV-table tr:nth-child(odd) {
 .respond-btn, .delete-btn, .unmark-btn  {
   padding: 3px 8px;
   color: #fff;
+  display: block;
 }
 
 .respond-btn, .unmark-btn {
   background-color: blue;
   border-color: blue;
-  margin-right: 22px;
+  width: 150px;
+  margin-bottom: 5px;
 }
 
 .delete-btn {
   background-color: #cc3300;
   border-color: #cc3300;
+  width: 150px;
 }
 
 .unmark-btn {
@@ -139,7 +206,7 @@ table.CV-table tr:nth-child(odd) {
 }
 
 .unmark-btn.show-button{
-  display: inline-block;
+  display: block;
 }
 
 .marked-row {
@@ -152,4 +219,41 @@ table.CV-table tr:nth-child(odd) {
 
 .respond-btn.hide-button {
   display: none;
+}
+
+/****************************************************
+Footer
+****************************************************/
+
+footer {
+  background: #062834 !important;
+  color: #fff !important;
+  padding-top: 0;
+  margin-top: 50px;
+}
+
+footer .container-fluid {
+  max-width: 1600px;
+  padding-bottom: 12px;
+}
+
+footer a {
+  color: #fff !important;
+}
+
+.footer-copyright {
+  font-size: 0.8rem;
+  font-weight:300;
+}
+
+.footer-content {
+  margin-bottom: 0.4rem;
+  font-size: 0.8rem;
+}
+
+
+
+/*---- Bootstrap Padding Fix ---*/
+[class*="col-"] {
+    padding: 1rem;
 }

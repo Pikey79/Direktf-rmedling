@@ -11,9 +11,9 @@
 
     if ($found_num_rows == 1) {
       $_SESSION["login_user"]=$username;
-      header("location:welcome.php");
+      header("location:index.php");
     } else {
-      header("location:index.php?invalid=Användarnamnet eller lösenordet är felaktigt!");
+      header("location:login-form.php?invalid=Användarnamnet eller lösenordet är felaktigt!");
     }
 
   }

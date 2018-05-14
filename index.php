@@ -57,7 +57,7 @@ if (isset($_GET['page'])) {
         break;
 
     case 'employee':
-        include ('pages/employee.php');
+        include ('employee/employee.php');
         break;
 
     default:

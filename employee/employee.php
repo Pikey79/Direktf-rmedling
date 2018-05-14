@@ -9,10 +9,9 @@
 				<p>Och här.......</p>
 			</div>
 			<div class="col-lg-6">
-				<h3 class="wrong-message" align="center" style="color:red;">Användarnamnet eller lösenordet är felaktigt!</h3>
 				<div class="form-container">
 					<h2 class="form-heading">Logga in</h2>
-					<form method="POST" action="pages/employee-login.php">
+					<form method="POST" action="employee/employee-login.php">
 				    <div class="form-group">
 				      <input class="form-control" id="name" type="text" placeholder="Användarnamn" name="txtuser">
 				    </div>

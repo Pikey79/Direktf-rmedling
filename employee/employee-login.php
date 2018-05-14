@@ -11,7 +11,7 @@
 
     if ($found_num_rows == 1) {
       $_SESSION["login_user"]=$username;
-      header("location:employee-welcome.php");
+      header("location:index.php");
     } else {
       header("location:../index.php?page=employee");
 

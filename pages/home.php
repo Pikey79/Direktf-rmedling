@@ -1,3 +1,7 @@
+<?php
+	include('db_connect.php');
+?>
+
 <!--- Banner Homepage -->
 <div class="container-fluid" style="padding: 0px;">
 	 <figure>
@@ -71,54 +75,81 @@
 
 
 	<!--- Cards -->
-	<div class="container-fluid padding bg-color-cards">
-		<h2>Lediga tjänster hos oss</h2>
-		<div class="row">
-			<div class="col-md-3 card-container">
-				<div class="card">
-					<img class="card-img-top" src="img/df/teacher.jpg">
-					<div class="card-body">
-						<h4 class="card-title">Skola: Lärare</h4>
-						<p class="card-text">Just nu söker vi vikarier till grundskola och gymnasium.</p>
-						<div class="card-button-container"><a href="index.php?page=school" class="btn btn-outline-secondary">Kontakta oss</a></div>
-					</div>
-				</div>
-			</div>
+	<?php
+		// School
+		$query_school = "SELECT * FROM card_text WHERE id = 1";
+		$result_school = mysqli_query($db, $query_school);
+		$card_school = mysqli_fetch_assoc($result_school);
 
-			<div class="col-md-3 card-container">
-				<div class="card">
-					<img class="card-img-top" src="img/df/waitress.jpg">
-					<div class="card-body">
-						<h4 class="card-title">Restaurang &amp; Hotell: Servicepersonal</h4>
-						<p class="card-text">Just nu söker vi personal för Restaurang &amp; hotell uppdrag.</p>
-						<div class="card-button-container"><a href="index.php?page=restaurant" class="btn btn-outline-secondary">Kontakta oss</a></div>
-					</div>
-				</div>
-			</div>
+		// Restaurant
+		$query_restaurant = "SELECT * FROM card_text WHERE id = 2";
+		$result_restaurant = mysqli_query($db, $query_restaurant);
+		$card_restaurant = mysqli_fetch_assoc($result_restaurant);
 
-			<div class="col-md-3 card-container">
-				<div class="card">
-					<img class="card-img-top" src="img/df/business.jpg">
-					<div class="card-body">
-						<h4 class="card-title">Ekonomi: Ekonomer</h4>
-						<p class="card-text">Just nu söker vi redovisningsekonomer för kortare och längre period.</p>
-						<div class="card-button-container"><a href="index.php?page=economy" class="btn btn-outline-secondary">Kontakta oss</a></div>
-					</div>
-				</div>
-			</div>
+		// Economy
+		$query_economy = "SELECT * FROM card_text WHERE id = 3";
+		$result_economy = mysqli_query($db, $query_economy);
+		$card_economy = mysqli_fetch_assoc($result_economy);
 
-			<div class="col-md-3 card-container">
-				<div class="card">
-					<img class="card-img-top" src="img/df/cleanless.jpg">
-					<div class="card-body">
-						<h4 class="card-title">Lokalvård: Städare</h4>
-						<p class="card-text">Just nu söker vi städare för stora och små städuppdrag.</p>
-						<div class="card-button-container"><a href="index.php?page=cleaning" class="btn btn-outline-secondary">Kontakta oss</a></div>
+		// Cleaning
+		$query_cleaning = "SELECT * FROM card_text WHERE id = 4";
+		$result_cleaning = mysqli_query($db, $query_cleaning);
+		$card_cleaning = mysqli_fetch_assoc($result_cleaning);
+
+
+
+		echo '
+			<div class="container-fluid padding bg-color-cards">
+				<h2>Lediga tjänster hos oss</h2>
+				<div class="row">
+					<div class="col-md-3 card-container">
+						<div class="card">
+							<img class="card-img-top" src="img/df/teacher.jpg">
+							<div class="card-body">
+								<h4 class="card-title">'.$card_school['heading_text'].'</h4>
+								<p class="card-text">'.$card_school['content_text'].'</p>
+								<div class="card-button-container"><a href="index.php?page=school" class="btn btn-outline-secondary">Kontakta oss</a></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 card-container">
+						<div class="card">
+							<img class="card-img-top" src="img/df/waitress.jpg">
+							<div class="card-body">
+								<h4 class="card-title">'.$card_restaurant['heading_text'].'</h4>
+								<p class="card-text">'.$card_restaurant['content_text'].'</p>
+								<div class="card-button-container"><a href="index.php?page=restaurant" class="btn btn-outline-secondary">Kontakta oss</a></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 card-container">
+						<div class="card">
+							<img class="card-img-top" src="img/df/business.jpg">
+							<div class="card-body">
+								<h4 class="card-title">'.$card_economy['heading_text'].'</h4>
+								<p class="card-text">'.$card_economy['content_text'].'</p>
+								<div class="card-button-container"><a href="index.php?page=economy" class="btn btn-outline-secondary">Kontakta oss</a></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 card-container">
+						<div class="card">
+							<img class="card-img-top" src="img/df/cleanless.jpg">
+							<div class="card-body">
+								<h4 class="card-title">'.$card_cleaning['heading_text'].'</h4>
+								<p class="card-text">'.$card_cleaning['content_text'].'</p>
+								<div class="card-button-container"><a href="index.php?page=cleaning" class="btn btn-outline-secondary">Kontakta oss</a></div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
+		';
+
+	?>
 
 
 	<!--- Hire staff -->

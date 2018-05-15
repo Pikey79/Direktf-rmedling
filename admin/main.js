@@ -22,3 +22,13 @@ $(".CV-table tr").each(function(){
     $(this).find(".unmark-btn").addClass("show-button");
   }
 });
+
+function deleletconfig(){
+
+	var del = confirm("Är du säker på att du vill radera detta?");
+	if (del == true){
+   		//header ("Location: indexadmin.php?page=about"
+      true;
+	}
+		return del;
+	}

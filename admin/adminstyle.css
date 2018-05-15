@@ -186,6 +186,7 @@ table.CV-table tr:nth-child(odd) {
   padding: 3px 8px;
   color: #fff;
   display: block;
+  margin: 0 auto;
 }
 
 .respond-btn, .unmark-btn {

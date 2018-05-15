@@ -8,11 +8,14 @@
     // Mark a line
     if (isset($_POST['mark'])) {
     # Svarat was clicked
+    echo "abbasss";
       if(isset($_POST["id"])) {
+        echo "hooooodroj";
       	$id = mysqli_real_escape_string($conn, $_POST['id']);
       	$query = "UPDATE apply_job SET marked = 'marked' WHERE id = $id";
       	mysqli_query($conn, $query);
 
+        // Refresh site
         if ($conn->query($query) === TRUE) {
           header("Refresh:0");
         }
@@ -24,11 +27,41 @@
         $query = "UPDATE apply_job SET marked = 'xxx' WHERE id = $id";
         mysqli_query($conn, $query);
 
+        // Refresh site
         if ($conn->query($query) === TRUE) {
           header("Refresh:0");
         }
       }
     }
+
+    // Delete a line
+    if(isset($_POST["id"]) && isset($_POST["id_delete"])) {
+      $id_delete = mysqli_real_escape_string($conn, $_POST['id']);
+      $query2 = "SELECT * FROM apply_job WHERE id = $id_delete";
+
+      // Delete file from folder
+      $row_result = mysqli_query($conn, $query2);
+      $correct_row = mysqli_fetch_assoc($row_result);
+      $file_name = $correct_row['filename'];
+      $path = "../Uploads/files/$file_name";
+
+      if (file_exists($path)) {
+        @chmod( $path, 0777 );
+        @unlink( $path );
+        //unlink($path, 0777);
+      }
+
+      // Delete row from DB
+      $query = "DELETE FROM apply_job WHERE id = $id_delete";
+      mysqli_query($conn, $query);
+
+      // Refresh site
+      if ($conn->query($query) === TRUE) {
+        header("Refresh:0");
+      }
+
+    }
+
 
 
     echo "<div class='ap-main-container'>";
@@ -86,7 +119,7 @@
       echo "<form method='POST'>";
       echo "<div class='marked-row'>$form_marked</div>";
       echo '<input type="hidden" name="id" value="'.$row['id'].'">';
-      echo "<button type='submit' name='mark' class='btn respond-btn'>Svarat</button><button type='submit' name='unmark' class='btn unmark-btn'>Avmarkera</button><button type='button' class='btn delete-btn'>Radera</button>";
+      echo "<button type='submit' name='mark' class='btn respond-btn'>Svarat</button><button type='submit' name='unmark' class='btn unmark-btn'>Avmarkera</button><button name='id_delete' type='submit' onclick='return deleletconfig()' class='btn delete-btn'>Radera</button>";
       echo "</form>";
       print "</td>\n";
       print "</tr>\n";

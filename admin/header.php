@@ -32,7 +32,7 @@
           <a class="nav-link" href="">Arbetstider</a>
         </li>
         <li class="nav-item contact-page">
-          <a class="nav-link" href="">Redigera text</a>
+          <a class="nav-link" href="index.php?page=edit-text">Redigera text</a>
         </li>
         <li class="nav-item employee-page">
           <a href="logout.php" class="nav-link log-out">Logga ut</a>

@@ -28,8 +28,8 @@ if (isset($_GET['page'])) {
         include ('edit-text.php');
         break;
 
-    case 'edit-time':
-        include ('edit-time.php');
+    case 'school-time':
+        include ('school-time.php');
         break;
 
     default:

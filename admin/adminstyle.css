@@ -254,7 +254,22 @@ footer a {
 
 
 
+
 /*---- Bootstrap Padding Fix ---*/
 [class*="col-"] {
     padding: 1rem;
+}
+
+
+
+
+/****************************************************
+Media Queries
+****************************************************/
+
+@media (min-width: 991px) {
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
 }

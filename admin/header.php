@@ -28,9 +28,18 @@
         <li class="nav-item search-staff-page">
           <a class="nav-link" href="index.php?page=company-application">Företagsansökan</a>
         </li>
-        <li class="nav-item about-us-page">
-          <a class="nav-link" href="index.php?page=edit-time">Arbetstider</a>
-        </li>
+        <li class="nav-item dropdown operations-page">
+					<a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Arbetstider</a>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+						<a class="dropdown-item" href="index.php?page=school-time">Skola</a>
+						<a class="dropdown-item" href="index.php?page=care-time">Vård &amp; Omsorg</a>
+						<a class="dropdown-item" href="index.php?page=restaurant-time">Restaurang och Hotell</a>
+						<a class="dropdown-item" href="index.php?page=economy-time">Ekonomi</a>
+						<a class="dropdown-item" href="index.php?page=cleaning-time">Lokalvård</a>
+						<a class="dropdown-item" href="index.php?page=retail-time">Detaljhandel</a>
+						<a class="dropdown-item" href="index.php?page=construction-time">Bygg</a>
+					</div>
+				</li>
         <li class="nav-item contact-page">
           <a class="nav-link" href="index.php?page=edit-text">Redigera text</a>
         </li>

@@ -47,7 +47,7 @@
     echo "<h2>Arbetstider skola</h2>";
 
 
-    print "<table border=0 class='CV-table'>\n";
+    print "<table border=0 class='CV-table TIME-table'>\n";
     print "<tr>
       <th>ID</th>
       <th>Plats</th>
@@ -86,3 +86,35 @@
     print "</table>\n";
 
 ?>
+
+
+<div style="overflow-x:auto;">
+  <table class="table table-striped CV-table table-change-time">
+    <thead class="employee-th">
+      <tr>
+        <th>Plats</th>
+        <th>Datum</th>
+        <th>Tid</th>
+        <th>Lägg till</th>
+      </tr>
+    </thead>
+    <tbody>
+            <tr>
+              <td>
+                <textarea class="form-control" id="school-heading" type="text" placeholder="Rubrik för skola..." name="school-heading">'.$card_school['heading_text'].'</textarea>
+              </td>
+              <td>
+                <textarea class="form-control" id="school-heading" type="text" placeholder="Rubrik för skola..." name="school-heading">'.$card_school['heading_text'].'</textarea>
+              </td>
+              <td>
+                <textarea class="form-control" id="school-heading" type="text" placeholder="Rubrik för skola..." name="school-heading">'.$card_school['heading_text'].'</textarea>
+              </td>
+              <td>
+                <button type="submit" name="school-submit" class="btn change-time-btn">Lägg till</button>
+              </td>
+            </tr>
+    </tbody>
+  </table>
+</div>
+
+

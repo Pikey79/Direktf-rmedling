@@ -45,6 +45,10 @@ th {
   text-align: center;
 }
 
+td {
+  vertical-align: middle !important;
+}
+
 .ap-main-container {
   max-width: 1600px;
   margin: 0 auto;
@@ -220,6 +224,26 @@ table.CV-table tr:nth-child(odd) {
 
 .respond-btn.hide-button {
   display: none;
+}
+
+/****************************************************
+Edit time
+****************************************************/
+
+.CV-table.table.table-change-time {
+  margin: 50px auto;
+}
+
+.TIME-table .respond-marked {
+  background: #d77c7c !important;
+}
+
+.change-time-btn {
+  width: 150px;
+  margin: 0 auto;
+  padding: 3px 8px;
+  background: blue;
+  color: #fff;
 }
 
 /****************************************************

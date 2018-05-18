@@ -26,7 +26,11 @@ if (isset($_GET['page'])) {
 
     case 'edit-text':
         include ('edit-text.php');
-        break;    
+        break;
+
+    case 'edit-time':
+        include ('edit-time.php');
+        break;
 
     default:
         include ('job-application.php');

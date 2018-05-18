@@ -8,9 +8,7 @@
     // Mark a line
     if (isset($_POST['mark'])) {
     # Svarat was clicked
-    echo "abbasss";
       if(isset($_POST["id"])) {
-        echo "hooooodroj";
       	$id = mysqli_real_escape_string($conn, $_POST['id']);
       	$query = "UPDATE apply_job SET marked = 'marked' WHERE id = $id";
       	mysqli_query($conn, $query);

@@ -1,3 +1,4 @@
+
 <div class="ap-main-container">
 
 
@@ -22,21 +23,28 @@
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                  <td>John</td>
-                  <td>Doe</td>
-                  <td>john@example.comfjg fjdjfdjf jfvjdjfd</td>
-                </tr>
-                <tr>
-                  <td>Mary</td>
-                  <td>Moe</td>
-                  <td>mary@example.com</td>
-                </tr>
-                <tr>
-                  <td>July</td>
-                  <td>Dooley</td>
-                  <td>july@example.com</td>
-                </tr>
+                <?php
+                  include('../admin/db.php');
+
+                  $query= "SELECT * FROM school_time ORDER BY ID desc";
+                  $result = mysqli_query($conn, $query);
+
+                  while ($row = mysqli_fetch_array($result)){
+                    $form_id = $row['id'];
+                    $form_place = $row['place'];
+                    $form_date = $row['date'];
+                    $form_time = $row['time'];
+                    $form_marked = $row['marked'];
+                    echo '
+                      <tr>
+                        <td>'.$row['place'].'</td>
+                        <td>'.$row['date'].'</td>
+                        <td>'.$row['time'].'</td>
+                        <td class="marked-row">'.$row['marked'].'</td>
+                      </tr>
+                    ';
+                  }
+                 ?>
               </tbody>
             </table>
           </div>

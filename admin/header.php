@@ -29,7 +29,7 @@
           <a class="nav-link" href="index.php?page=company-application">Företagsansökan</a>
         </li>
         <li class="nav-item about-us-page">
-          <a class="nav-link" href="">Arbetstider</a>
+          <a class="nav-link" href="index.php?page=edit-time">Arbetstider</a>
         </li>
         <li class="nav-item contact-page">
           <a class="nav-link" href="index.php?page=edit-text">Redigera text</a>

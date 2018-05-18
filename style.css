@@ -610,6 +610,10 @@ Employee
   color:white;
 }
 
+.marked-row {
+  display: none;
+}
+
 .employee-footer {
   padding-top: 0rem;
 }
@@ -617,6 +621,7 @@ Employee
 .employee-footer .container-fluid.padding {
   padding-bottom: 12px;
 }
+
 
 
 /****************************************************

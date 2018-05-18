@@ -605,6 +605,14 @@ Employee
   font-weight: 400;
 }
 
+.table.table-striped tbody {
+  border: 1px solid #ddd;
+}
+
+.table.table-striped td {
+  border: 1px solid #ddd;
+}
+
 .employee-th {
   background: #f39231;
   color:white;

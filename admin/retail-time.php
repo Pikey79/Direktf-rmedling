@@ -12,7 +12,7 @@
       $tel = mysqli_real_escape_string($conn, $_POST['work_time']);
 
       // attempt insert query execution
-      $query = "INSERT into school_time (place, date, time)
+      $query = "INSERT into retail_time (place, date, time)
       VALUES ('$name', '$email', '$tel')";
 
       // Refresh site
@@ -24,7 +24,7 @@
 
     //-------------------------------------------------------------------------//
 
-    $query= "SELECT * FROM school_time ORDER BY ID desc";
+    $query= "SELECT * FROM retail_time ORDER BY ID desc";
     $result = mysqli_query($conn, $query);
 
     // Mark a line
@@ -32,7 +32,7 @@
     # Svarat was clicked
       if(isset($_POST["id"])) {
         $id = mysqli_real_escape_string($conn, $_POST['id']);
-        $query = "UPDATE school_time SET marked = 'marked' WHERE id = $id";
+        $query = "UPDATE retail_time SET marked = 'marked' WHERE id = $id";
         mysqli_query($conn, $query);
 
         if ($conn->query($query) === TRUE) {
@@ -43,7 +43,7 @@
     # Avmarkera was clicked
       if(isset($_POST["id"])) {
         $id = mysqli_real_escape_string($conn, $_POST['id']);
-        $query = "UPDATE school_time SET marked = 'xxx' WHERE id = $id";
+        $query = "UPDATE retail_time SET marked = 'xxx' WHERE id = $id";
         mysqli_query($conn, $query);
 
         if ($conn->query($query) === TRUE) {
@@ -57,7 +57,7 @@
     // Delete a line, Delete row from DB
     if(isset($_POST["id"]) && isset($_POST["id_delete"])) {
       $id_delete = mysqli_real_escape_string($conn, $_POST['id']);
-      $query = "DELETE FROM school_time WHERE id = $id_delete";
+      $query = "DELETE FROM retail_time WHERE id = $id_delete";
       mysqli_query($conn, $query);
 
       // Refresh site
@@ -72,7 +72,7 @@
 
     echo "<div class='ap-main-container'>";
     echo "<div class='container-fluid padding'>";
-    echo "<h2>Arbetstider Skola</h2>";
+    echo "<h2>Arbetstider Detaljhandel</h2>";
 
     echo "<div style='overflow-x:auto;'>";
     print "<table border=0 class='CV-table TIME-table'>\n";

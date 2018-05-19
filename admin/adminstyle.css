@@ -159,7 +159,7 @@ CV admin
 
 
 table.CV-table {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   border-collapse: collapse;
   font-family: 'Poppins', sans-serif;
@@ -295,5 +295,13 @@ Media Queries
 
   .dropdown:hover .dropdown-menu {
     display: block;
+  }
+}
+
+@media (max-width: 767px) {
+
+  table.CV-table .form-control{
+    width: 160px;
+    margin: auto;
   }
 }

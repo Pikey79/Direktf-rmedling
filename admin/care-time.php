@@ -12,7 +12,7 @@
       $tel = mysqli_real_escape_string($conn, $_POST['work_time']);
 
       // attempt insert query execution
-      $query = "INSERT into school_time (place, date, time)
+      $query = "INSERT into care_time (place, date, time)
       VALUES ('$name', '$email', '$tel')";
 
       // Refresh site
@@ -24,7 +24,7 @@
 
     //-------------------------------------------------------------------------//
 
-    $query= "SELECT * FROM school_time ORDER BY ID desc";
+    $query= "SELECT * FROM care_time ORDER BY ID desc";
     $result = mysqli_query($conn, $query);
 
     // Mark a line
@@ -32,7 +32,7 @@
     # Svarat was clicked
       if(isset($_POST["id"])) {
         $id = mysqli_real_escape_string($conn, $_POST['id']);
-        $query = "UPDATE school_time SET marked = 'marked' WHERE id = $id";
+        $query = "UPDATE care_time SET marked = 'marked' WHERE id = $id";
         mysqli_query($conn, $query);
 
         if ($conn->query($query) === TRUE) {
@@ -43,7 +43,7 @@
     # Avmarkera was clicked
       if(isset($_POST["id"])) {
         $id = mysqli_real_escape_string($conn, $_POST['id']);
-        $query = "UPDATE school_time SET marked = 'xxx' WHERE id = $id";
+        $query = "UPDATE care_time SET marked = 'xxx' WHERE id = $id";
         mysqli_query($conn, $query);
 
         if ($conn->query($query) === TRUE) {
@@ -57,7 +57,7 @@
     // Delete a line, Delete row from DB
     if(isset($_POST["id"]) && isset($_POST["id_delete"])) {
       $id_delete = mysqli_real_escape_string($conn, $_POST['id']);
-      $query = "DELETE FROM school_time WHERE id = $id_delete";
+      $query = "DELETE FROM care_time WHERE id = $id_delete";
       mysqli_query($conn, $query);
 
       // Refresh site
@@ -72,7 +72,7 @@
 
     echo "<div class='ap-main-container'>";
     echo "<div class='container-fluid padding'>";
-    echo "<h2>Arbetstider Skola</h2>";
+    echo "<h2>Arbetstider Vård & Omsorg</h2>";
 
     echo "<div style='overflow-x:auto;'>";
     print "<table border=0 class='CV-table TIME-table'>\n";
@@ -117,35 +117,35 @@
 ?>
 
 
-  <div style="overflow-x:auto;">
-    <table class="table table-striped CV-table table-change-time">
-      <thead class="employee-th">
-        <tr>
-          <th>Plats</th>
-          <th>Datum</th>
-          <th>Tid</th>
-          <th>Lägg till</th>
-        </tr>
-      </thead>
-      <tbody>
-        <form method="POST" action="">
+    <div style="overflow-x:auto;">
+      <table class="table table-striped CV-table table-change-time">
+        <thead class="employee-th">
           <tr>
-            <td>
-              <textarea class="form-control" type="text" placeholder="Text för plats..." name="work_place"></textarea>
-            </td>
-            <td>
-              <textarea class="form-control" type="text" placeholder="Text för datum..." name="work_date"></textarea>
-            </td>
-            <td>
-              <textarea class="form-control" type="text" placeholder="Text för tid..." name="work_time"></textarea>
-            </td>
-            <td>
-              <input type="hidden" name="id-new-work">
-              <button type="submit" name="school-submit" class="btn change-time-btn">Lägg till</button>
-            </td>
+            <th>Plats</th>
+            <th>Datum</th>
+            <th>Tid</th>
+            <th>Lägg till</th>
           </tr>
-        </form>
-      </tbody>
-    </table>
-  </div>
+        </thead>
+        <tbody>
+          <form method="POST" action="">
+            <tr>
+              <td>
+                <textarea class="form-control" type="text" placeholder="Text för plats..." name="work_place"></textarea>
+              </td>
+              <td>
+                <textarea class="form-control" type="text" placeholder="Text för datum..." name="work_date"></textarea>
+              </td>
+              <td>
+                <textarea class="form-control" type="text" placeholder="Text för tid..." name="work_time"></textarea>
+              </td>
+              <td>
+                <input type="hidden" name="id-new-work">
+                <button type="submit" name="school-submit" class="btn change-time-btn">Lägg till</button>
+              </td>
+            </tr>
+          </form>
+        </tbody>
+      </table>
+    </div>
 </div>

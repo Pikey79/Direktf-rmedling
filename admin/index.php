@@ -32,6 +32,30 @@ if (isset($_GET['page'])) {
         include ('school-time.php');
         break;
 
+    case 'care-time':
+        include ('care-time.php');
+        break;
+
+    case 'cleaning-time':
+        include ('cleaning-time.php');
+        break;
+
+    case 'economy-time':
+        include ('economy-time.php');
+        break;
+
+    case 'restaurant-time':
+        include ('restaurant-time.php');
+        break;
+
+    case 'construction-time':
+        include ('construction-time.php');
+        break;
+
+    case 'retail-time':
+        include ('retail-time.php');
+        break;
+
     default:
         include ('job-application.php');
         break;

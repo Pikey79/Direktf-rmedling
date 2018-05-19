@@ -72,7 +72,7 @@
 
 ?>
 
-
+<div class='ap-main-container'>
 <div class="container-fluid padding bg-color-cards">
 		<h2>Redigera texter</h2>
 		<div class="row">

@@ -166,6 +166,10 @@ Popup
   display: block !important;
 }
 
+.wrong-message {
+  font-size: 1.2rem;
+}
+
 /****************************************************
 Nav
 ****************************************************/
@@ -584,6 +588,11 @@ Contact
 Employee
 ****************************************************/
 
+.employee-container.form-container {
+  width: 500px;
+  margin: 20px auto;
+}
+
 .employee-heading {
   color: #f39231;
   font-weight: 400;
@@ -611,7 +620,13 @@ Employee
 
 .table.table-striped td {
   border: 1px solid #ddd;
+  vertical-align: middle;
+  white-space: nowrap;
 }
+
+/*.table.table-striped td:nth-child(2), table.table-striped td:nth-child(3)  {
+  white-space: nowrap;
+}*/
 
 .employee-th {
   background: #f39231;
@@ -629,6 +644,16 @@ Employee
 .employee-footer .container-fluid.padding {
   padding-bottom: 12px;
 }
+
+.redline-text {
+  color: #d77c7c;
+  margin-bottom: 0.5rem;
+}
+
+.table-striped tr.work-taken {
+  background: #d77c7c !important;
+}
+
 
 
 
@@ -899,6 +924,10 @@ Media Queries
 
   .ap-main-container {
     min-height: auto;
+  }
+
+  .employee-container.form-container {
+    width: 100%;
   }
 }
 

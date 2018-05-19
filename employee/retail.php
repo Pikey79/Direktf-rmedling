@@ -13,7 +13,8 @@
           <p>reza@direktformedling.se</p>
         </div>
         <div class="col-lg-6">
-          <div style="overflow-x:auto;">
+          <div style="overflow-x:auto;" class="form-margin">
+            <p class="redline-text">Rödmarkerad rad visar att tiden är bokad</p>
             <table class="table table-striped">
               <thead class="employee-th">
                 <tr>

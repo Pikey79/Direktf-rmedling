@@ -63,8 +63,10 @@
 
 
     echo "<div class='ap-main-container'>";
+    echo "<div class='container-fluid padding'>";
     echo "<h2>Jobbansökan</h2>";
 
+    echo "<div style='overflow-x:auto;'>";
     print "<table border=0 class='CV-table'>\n";
     print "<tr>
       <th>ID</th>
@@ -123,5 +125,8 @@
       print "</tr>\n";
     }
     print "</table>\n";
+    echo "</div>";
+    echo "</div>";
+
 
 ?>

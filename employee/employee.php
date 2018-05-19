@@ -3,13 +3,8 @@
 	<!-- Section -->
 	<div class="container-fluid padding ap-more-padding">
 		<div class="row">
-			<div class="col-lg-6">
-				<h2>Anställd</h2>
-				<p>Lägg in text här.......</p>
-				<p>Och här.......</p>
-			</div>
-			<div class="col-lg-6">
-				<div class="form-container">
+			<div class="col-lg-12">
+				<div class="form-container employee-container">
 					<h2 class="form-heading">Logga in</h2>
 					<form method="POST" action="employee/employee-login.php">
 				    <div class="form-group">

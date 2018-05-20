@@ -50,8 +50,21 @@ if  (isset($_POST['name'])
   $fileextension= strtolower($fileextension);
 
 
+  $correct_file = 0;
+  $allowedExts = array("pdf", "doc", "docx");
+  $extension = end(explode(".", $file_name));
+  if (($_FILES["file"]["type"] == "application/pdf") || ($_FILES["file"]["type"] == "application/msword") || ($_FILES["file"]["type"] == "application/vnd.openxmlformats-officedocument.wordprocessingml.document") && in_array($extension, $allowedExts))
+  {
+    $path= 'Uploads/files/';
+    move_uploaded_file($tmp_name, $path.$file_name);
+    $correct_file = 1;
 
-  if (isset($file_name)) {
+  } else {
+    $correct_file = 0;
+  }
+
+
+  /*if (isset($file_name)) {
 
     $path= 'Uploads/files/';
 
@@ -60,17 +73,23 @@ if  (isset($_POST['name'])
 
       }
     }
-  }
+  }*/
 
-	// attempt insert query execution
-	$sql = "INSERT into apply_job (name, phone, email, message, operation, filename)
-	VALUES ('$name', '$tel', '$email', '$message', '$operation', '$file_name' )
-	";
 
-	if ($db->query($sql) === TRUE) {
-		echo "<script type= 'text/javascript'>$('body').addClass('show-success');</script>";
+
+	if ($correct_file == 1 || empty($_FILES['file']['name']) ) {
+
+    // attempt insert query execution
+    $sql = "INSERT into apply_job (name, phone, email, message, operation, filename)
+    VALUES ('$name', '$tel', '$email', '$message', '$operation', '$file_name' )
+    ";
+
+    if($db->query($sql) === TRUE){
+      echo "<script type= 'text/javascript'>$('body').addClass('show-success');</script>";
+    }
+
 	} else {
-		echo "<script type= 'text/javascript'>alert('Error: " . $sql . "<br>" . $db->error."');</script>";
+    echo "<script type= 'text/javascript'>$('body').addClass('show-unsuccess');</script>";
 	}
 
 }

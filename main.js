@@ -41,4 +41,5 @@ if(window.location.href.indexOf("school") > -1 || window.location.href.indexOf("
 // Popup
 $("body").on("click", ".black-overlay, .popup-button", function () {
   $("body").removeClass("show-success");
+  $("body").removeClass("show-unsuccess");
 });

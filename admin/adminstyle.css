@@ -226,6 +226,43 @@ table.CV-table tr:nth-child(odd) {
   display: none;
 }
 
+
+/****************************************************
+Edit text
+****************************************************/
+/** Job Cards **/
+.bg-color-cards {
+  background: #fff;
+}
+
+.bg-color-cards h2 {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.card {
+  border-radius: 0px !important;
+  display: block !important;
+}
+
+.card-title {
+  font-size: 1.3rem;
+}
+
+.card .card-img-top {
+  border-radius: 0px !important;
+}
+
+.card-button-container {
+  text-align: center;
+  width: 100%;
+}
+
+.card-button-container a {
+  width: 100%;
+}
+
+
 /****************************************************
 Edit time
 ****************************************************/

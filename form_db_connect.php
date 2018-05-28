@@ -14,9 +14,12 @@ if  (isset($_POST['company_name'])
 	$c_email = mysqli_real_escape_string($db, $_POST['c_email']);
 	$c_message = mysqli_real_escape_string($db, $_POST['c_message']);
 
+  // Time/Date
+  $c_time = date("Y-m-d");
+
 	// attempt insert query execution
-	$sql = "INSERT into search_staff (company_name, name, phone, email, message)
-	VALUES ('$company_name', '$c_name', '$c_tel', '$c_email', '$c_message')
+	$sql = "INSERT into search_staff (company_name, name, phone, email, message, time)
+	VALUES ('$company_name', '$c_name', '$c_tel', '$c_email', '$c_message', '$c_time')
 	";
 
 	if ($db->query($sql) === TRUE) {
@@ -41,6 +44,9 @@ if  (isset($_POST['name'])
 	$message = mysqli_real_escape_string($db, $_POST['message']);
   $operation = mysqli_real_escape_string($db, $_POST['operation']);
 
+  // Time/Date
+  $time = date("Y-m-d");
+
   // Upload File
   $file_name= time().uniqid(rand()).preg_replace("/[^A-Za-z0-9\_\-\.]/", '', basename($_FILES['file']['name']));
   $tmp_name= $_FILES['file']['tmp_name'];
@@ -51,9 +57,9 @@ if  (isset($_POST['name'])
 
   // Allow certain file formats
   $correct_file = 0;
-  $allowedExts = array("pdf", "doc", "docx");
+  $allowedExts = array("pdf", "doc", "docx", "txt");
   $extension = end(explode(".", $file_name));
-  if (($_FILES["file"]["type"] == "application/pdf") || ($_FILES["file"]["type"] == "application/msword") || ($_FILES["file"]["type"] == "application/vnd.openxmlformats-officedocument.wordprocessingml.document") && in_array($extension, $allowedExts))
+  if (($_FILES["file"]["type"] == "application/pdf") || ($_FILES["file"]["type"] == "text/plain") || ($_FILES["file"]["type"] == "application/msword") || ($_FILES["file"]["type"] == "application/vnd.openxmlformats-officedocument.wordprocessingml.document") && in_array($extension, $allowedExts))
   {
     $path= 'Uploads/files/';
     move_uploaded_file($tmp_name, $path.$file_name);
@@ -64,24 +70,11 @@ if  (isset($_POST['name'])
   }
 
 
-  /*if (isset($file_name)) {
-
-    $path= 'Uploads/files/';
-
-    if (!empty($file_name)){
-      if (move_uploaded_file($tmp_name, $path.$file_name)) {
-
-      }
-    }
-  }*/
-
-
-
 	if ($correct_file == 1 || empty($_FILES['file']['name']) ) {
 
     // attempt insert query execution
-    $sql = "INSERT into apply_job (name, phone, email, message, operation, filename)
-    VALUES ('$name', '$tel', '$email', '$message', '$operation', '$file_name' )
+    $sql = "INSERT into apply_job (name, phone, email, message, operation, filename, time)
+    VALUES ('$name', '$tel', '$email', '$message', '$operation', '$file_name', '$time' )
     ";
 
     if($db->query($sql) === TRUE){

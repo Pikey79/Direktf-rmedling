@@ -1,20 +1,4 @@
 
-// Respond button
-/*$("body").on("click", ".CV-table .respond-btn", function(){
-  var button_clicked = $(this);
-  button_clicked.closest("tr").addClass("respond-marked");
-  /*var clicks = $(this).data('clicks');
-  if (clicks) {
-     // odd clicks
-     button_clicked.text("Svarat");
-  } else {
-     // even clicks
-     button_clicked.text("Avmarkera");
-  }
-  $(this).data("clicks", !clicks);
-
-});*/
-
 // Mark a row and change button
 $(".CV-table tr").each(function(){
   if($(this).find(".marked-row").text().indexOf("marked") > -1) {
@@ -40,3 +24,27 @@ function deleletconfig(){
 $("a[href$='.pdf']").addClass("show-cv-link");
 $("a[href$='.doc']").addClass("show-cv-link");
 $("a[href$='.docx']").addClass("show-cv-link");
+
+// Popup
+$("body").on("click", ".message-btn", function () {
+  $(this).closest("td").addClass("show-msg-text");
+  $("body").addClass("show-msg-popup");
+});
+
+
+$("body").on("click", ".black-overlay, .close-btn", function () {
+  $("body").removeClass("show-msg-popup");
+  $("td").removeClass("show-msg-text");
+});
+
+
+// Hide message button
+if($(".message-popup").length > 0) {
+
+  $(".CV-table tbody tr").each(function(){
+    if($(this).find(".message-popup").text().length == 7 || $(this).find(".message-popup").text().length == 0) {
+      $(this).addClass("hide-message-btn");
+
+    }
+  });
+}

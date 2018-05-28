@@ -44,6 +44,8 @@
 				     </p>
 				    <div class="form-group">
 				      <label for="exampleInputFile">Ladda upp CV / Personligtbrev</label>
+							<br>
+							<label style="color: red">Tillåtna filformat: pdf, doc, docx eller txt</label>
 				      <input type="file" class="form-control-file" id="InputCV" aria-describedby="fileHelp" name="file">
 				    </div>
 				    <!--<div class="form-group">

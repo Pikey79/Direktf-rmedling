@@ -12,6 +12,9 @@
   <link href="adminstyle.css" rel="stylesheet">
 </head>
 <body>
+  
+<!-- Popup -->
+<div class="black-overlay"></div>
 
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light">

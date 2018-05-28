@@ -14,7 +14,7 @@
 				<a href="tel:0735023263"><p>(+46)73 - 502 32 63</p></a>
 				<p>krister@direktformedling.se</p>
 				<br>
-				<p class="responsible-heading">Verksamhetsansvarig Ekonomi</p>
+				<p class="responsible-heading">Verksamhetsansvarig Bokföring & Redovisning</p>
 				<p>Arman Poya</p>
 				<a href="tel:0707825312"><p>(+46)70 - 782 53 12</p></a>
 				<p>arman@direktformedling.se</p>

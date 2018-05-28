@@ -12,7 +12,7 @@
 			</div>
 			<div class="col-lg-6">
 				<div class="form-container form-container-search-stuff-bg">
-					<h2 class="form-heading">Boka din personal</h2>
+					<h2 class="form-heading">Sök personal</h2>
 					<form method="post" action="">
 						<div class="form-group">
 							<input class="form-control" id="company-name" type="text" placeholder="Företagsnamn" name="company_name" required>

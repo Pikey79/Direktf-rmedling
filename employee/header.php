@@ -22,18 +22,21 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
-      <li class="nav-item dropdown operations-page">
-        <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lediga tider</a>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-          <a class="dropdown-item" href="index.php?page=school">Skola</a>
-          <a class="dropdown-item" href="index.php?page=care">Vård &amp; Omsorg</a>
-          <a class="dropdown-item" href="index.php?page=restaurant">Restaurang och Hotell</a>
-          <a class="dropdown-item" href="index.php?page=economy">Ekonomi</a>
-          <a class="dropdown-item" href="index.php?page=cleaning">Lokalvård</a>
-          <a class="dropdown-item" href="index.php?page=retail">Detaljhandel</a>
-          <a class="dropdown-item" href="index.php?page=construction">Bygg</a>
-        </div>
-      </li>
+        <li class="nav-item home-page">
+          <a class="nav-link" href="index.php?page=home">Hem</a>
+        </li>
+        <li class="nav-item dropdown operations-page">
+          <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lediga tider</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="index.php?page=school">Skola</a>
+            <a class="dropdown-item" href="index.php?page=care">Vård &amp; Omsorg</a>
+            <a class="dropdown-item" href="index.php?page=restaurant">Hotell & Restaurang</a>
+            <a class="dropdown-item" href="index.php?page=economy">Bokföring & Redovisning</a>
+            <a class="dropdown-item" href="index.php?page=cleaning">Lokalvård</a>
+            <a class="dropdown-item" href="index.php?page=retail">Detaljhandel</a>
+            <!--<a class="dropdown-item" href="index.php?page=construction">Bygg</a>-->
+          </div>
+        </li>
         <li class="nav-item employee-page">
           <a href="employee-logout.php" class="nav-link employee-logout">Logga ut</a>
         </li>

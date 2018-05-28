@@ -112,7 +112,7 @@ hr.light-100 {
 .ap-main-container {
   max-width: 1600px;
   margin: 0 auto;
-  min-height: 600px;
+  min-height: 900px;
 }
 
 
@@ -932,9 +932,6 @@ Media Queries
     left: 141px;
   }
 
-  .ap-main-container {
-    min-height: auto;
-  }
 
   .employee-container.form-container {
     width: 100%;

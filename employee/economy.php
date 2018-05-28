@@ -6,8 +6,8 @@
     <div class="container-fluid padding ap-more-padding">
       <div class="row">
         <div class="col-lg-6">
-          <h2>Ekonomi</h2>
-          <p class="responsible-heading">Verksamhetsansvarig Ekonomi och Bygg</p>
+          <h2>Bokföring & Redovisning</h2>
+          <p class="responsible-heading">Verksamhetsansvarig Bokföring & Redovisning</p>
           <p>Arman Poya</p>
           <a href="tel:0707825312"><p>(+46)70 - 782 53 12</p></a>
           <p>arman@direktformedling.se</p>

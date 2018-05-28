@@ -12,7 +12,7 @@
   <link href="adminstyle.css" rel="stylesheet">
 </head>
 <body>
-  
+
 <!-- Popup -->
 <div class="black-overlay"></div>
 
@@ -36,11 +36,11 @@
 					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
 						<a class="dropdown-item" href="index.php?page=school-time">Skola</a>
 						<a class="dropdown-item" href="index.php?page=care-time">Vård &amp; Omsorg</a>
-						<a class="dropdown-item" href="index.php?page=restaurant-time">Restaurang och Hotell</a>
-						<a class="dropdown-item" href="index.php?page=economy-time">Ekonomi</a>
+						<a class="dropdown-item" href="index.php?page=restaurant-time">Hotell & Restaurang</a>
+						<a class="dropdown-item" href="index.php?page=economy-time">Bokföring & Redovisning</a>
 						<a class="dropdown-item" href="index.php?page=cleaning-time">Lokalvård</a>
 						<a class="dropdown-item" href="index.php?page=retail-time">Detaljhandel</a>
-						<a class="dropdown-item" href="index.php?page=construction-time">Bygg</a>
+						<!--<a class="dropdown-item" href="index.php?page=construction-time">Bygg</a>-->
 					</div>
 				</li>
         <li class="nav-item contact-page">

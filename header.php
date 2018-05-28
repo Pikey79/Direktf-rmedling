@@ -37,7 +37,7 @@
 					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
 						<a class="dropdown-item" href="index.php?page=school">Skola</a>
 						<a class="dropdown-item" href="index.php?page=care">Vård &amp; Omsorg</a>
-						<a class="dropdown-item" href="index.php?page=restaurant">Restaurang och Hotell</a>
+						<a class="dropdown-item" href="index.php?page=restaurant">Hotell & Restaurang</a>
 						<a class="dropdown-item" href="index.php?page=economy">Bokföring & Redovisning</a>
 						<a class="dropdown-item" href="index.php?page=cleaning">Lokalvård</a>
 						<a class="dropdown-item" href="index.php?page=retail">Detaljhandel</a>

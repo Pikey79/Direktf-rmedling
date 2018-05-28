@@ -18,8 +18,8 @@
 		<div class="row">
 			<div class="col-lg-6">
 				<h2>Bokföring & Redovisning</h2>
-				<p>Direktförmedling hyr ut ekonomer, redovisningsekonomer, banktjänstemän, controllers samt administratörer.
-					Behöver du personal eller söker du jobb? Kontakta verksamhetsansvarig Arman Poya på arman@direktformedling.se eller ring <a href="tel:0705023263">(+46)70 - 782 53 12</a>.</p>
+				<p>Låt oss sköta din bokföring! Vi har diplomerade redovisningskonsulter som hjälper dig med allt ifrån bokföring, bokslut, deklarationer, löneadministration och rådgivning. Som kund hos oss kan du tryggt ha din bokföring digitalt. Du väljer själv vilka delar av ekonomin du vill att vi ska ta hand om. Vi använder oss av Fortnox digitala bokföringsprogram.
+					Kontakta verksamhetsansvarig Arman Poya på arman@direktformedling.se eller ring <a href="tel:0705023263">(+46)70 - 782 53 12</a> om du har frågor eller är intresserad av att låta oss sköta din bokföring.</p>
 			</div>
 			<div class="col-lg-6 form-margin">
 				<div class="flap-one flap-active">För arbetssökande</div>

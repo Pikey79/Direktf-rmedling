@@ -63,7 +63,7 @@
 				<div class="row list-button-operation">
 				  <div class="col"><a href="index.php?page=school" class="btn btn-primary btn-lg operations">Skola</a></div>
 					<div class="col"><a href="index.php?page=care" class="btn btn-primary btn-lg operations">Vård &amp; Omsorg</a></div>
-				  <div class="col"><a href="index.php?page=economy" class="btn btn-primary btn-lg operations">Ekonomi</a></div>
+				  <div class="col"><a href="index.php?page=economy" class="btn btn-primary btn-lg operations">Bokföring & Redovisning</a></div>
 				  <div class="col"><a href="index.php?page=cleaning" class="btn btn-primary btn-lg operations">Lokalvård</a></div>
 				  <div class="col"><a href="index.php?page=restaurant" class="btn btn-primary btn-lg operations">Restaurang &amp; Hotell</a></div>
 				  <div class="col"><a href="index.php?page=retail" class="btn btn-primary btn-lg operations">Detaljhandel</a></div>

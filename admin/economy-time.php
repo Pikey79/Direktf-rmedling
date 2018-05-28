@@ -72,7 +72,7 @@
 
     echo "<div class='ap-main-container'>";
     echo "<div class='container-fluid padding'>";
-    echo "<h2>Arbetstider Ekonomi</h2>";
+    echo "<h2>Arbetstider Bokföring & Redovisning</h2>";
 
     echo "<div style='overflow-x:auto;'>";
     print "<table border=0 class='CV-table TIME-table'>\n";

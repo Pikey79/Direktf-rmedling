@@ -20,10 +20,10 @@
 				<div class="footer-content-container">
 				    <h5>Verksamheter</h5>
 					<p class="footer-content"><a href="index.php?page=school">Skola</a></p>
-					<p class="footer-content"><a href="index.php?page=restaurant">Restaurang &amp; Hotell</a></p>
-					<p class="footer-content"><a href="index.php?page=care">Vård och Omsorg</a></p>
-					<p class="footer-content"><a href="index.php?page=economy">Ekonomi</a></p>
-					<p class="footer-content"><a href="index.php?page=construction">Bygg</a></p>
+					<p class="footer-content"><a href="index.php?page=restaurant">Hotell & Restaurang</a></p>
+					<p class="footer-content"><a href="index.php?page=care">Vård & Omsorg</a></p>
+					<p class="footer-content"><a href="index.php?page=economy">Bokföring & Redovisning</a></p>
+					<!--<p class="footer-content"><a href="index.php?page=construction">Bygg</a></p>-->
 					<p class="footer-content"><a href="index.php?page=cleaning">Lokalvård</a></p>
 					<p class="footer-content"><a href="index.php?page=retail">Detaljhandel</a></p>
 				</div>

@@ -48,10 +48,6 @@
 							<label style="color: red">Tillåtna filformat: pdf, doc, docx eller txt</label>
 				      <input type="file" class="form-control-file" id="InputCV" aria-describedby="fileHelp" name="file">
 				    </div>
-				    <!--<div class="form-group">
-				      <label for="exampleInputFile">Ladda upp ditt personliga brev</label>
-				      <input type="file" class="form-control-file" id="InputPL" aria-describedby="fileHelp" name="InputPL">
-				    </div>-->
 				    <button type="submit" name="submit" value="upload" class="btn btn-primary form-submit-btn">Skicka</button>
 				  </form>
 

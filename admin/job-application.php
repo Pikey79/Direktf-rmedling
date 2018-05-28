@@ -107,7 +107,8 @@
       echo "<div>$form_email</div>";
       print "</td>\n";
       print "\t<td>\n";
-      echo "<div class='message-popup'>$form_message</div>";
+      echo "<div class='message-popup'><div class='close-btn'><i class='fa fa-times'></i></div>
+      $form_message</div>";
       echo "<div><button class='btn'>Meddelande</button></div>";
       print "</td>\n";
       print "\t<td>\n";

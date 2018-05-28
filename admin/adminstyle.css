@@ -240,7 +240,7 @@ table.CV-table tr:nth-child(odd) {
     position: fixed;
     height: 500px;
     width: 800px;
-    background: wheat;
+    background: #fff;
     top: 0px;
     left: 0;
     bottom: 0;
@@ -248,6 +248,19 @@ table.CV-table tr:nth-child(odd) {
     margin: auto;
     z-index: 999;
     padding: 20px;
+    overflow-y: scroll;
+    border-radius: 3px;
+    text-align: left;
+    padding-bottom: 40px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 0 10px 10px;
 }
 
 
@@ -357,6 +370,16 @@ Media Queries
   .dropdown:hover .dropdown-menu {
     display: block;
   }
+
+}
+
+@media (max-width: 990px) {
+
+  .message-popup {
+    width: 90%;
+    height: 400px;
+  }
+
 }
 
 @media (max-width: 767px) {
@@ -365,4 +388,5 @@ Media Queries
     width: 160px;
     margin: auto;
   }
+
 }

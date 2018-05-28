@@ -1,9 +1,9 @@
-<?php
+<!--<?php
 	include('db_connect.php');
 	include('form_db_connect.php');
-?>
+?>-->
 <!-- Section -->
-<div class="container-fluid" style="padding: 0px;">
+<!--<div class="container-fluid" style="padding: 0px;">
 	 <figure>
 			<div class="banner-container banner-construction">
 				<div class="banner-heading-container">
@@ -28,4 +28,4 @@
 				<?php include('form-search-staff.php'); ?>
 			</div>
 		</div>
-	</div>
+	</div>-->

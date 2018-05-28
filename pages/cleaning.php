@@ -20,6 +20,7 @@
 				<h2>Lokalvård</h2>
 				<p>Direktförmedling utför flyttstäd, byggstäd samt andra städuppdrag. Vi hyr även ut utbildade lokalvårdare för både stora och små uppdrag.
 					Behöver du personal eller söker du jobb? Kontakta verksamhetsansvarig Reza Djam på reza@direktformedling.se eller ring <a href="tel:0707825306">(+46)70 - 782 53 06</a>.</p>
+					<img class="cleaning-img" src="img/df/flyttstad.jpg">
 			</div>
 			<div class="col-lg-6 form-margin">
 				<div class="flap-one flap-active">För arbetssökande</div>

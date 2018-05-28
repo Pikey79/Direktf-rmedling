@@ -406,6 +406,12 @@ Banner
   background-image: url("img/df/lokalvard.jpg");
 }
 
+.cleaning-img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
 /* Retail */
 .banner-retail {
   background-image: url("img/df/detaljhandel.jpg");

@@ -38,10 +38,10 @@
 						<a class="dropdown-item" href="index.php?page=school">Skola</a>
 						<a class="dropdown-item" href="index.php?page=care">Vård &amp; Omsorg</a>
 						<a class="dropdown-item" href="index.php?page=restaurant">Restaurang och Hotell</a>
-						<a class="dropdown-item" href="index.php?page=economy">Ekonomi</a>
+						<a class="dropdown-item" href="index.php?page=economy">Bokföring & Redovisning</a>
 						<a class="dropdown-item" href="index.php?page=cleaning">Lokalvård</a>
 						<a class="dropdown-item" href="index.php?page=retail">Detaljhandel</a>
-						<a class="dropdown-item" href="index.php?page=construction">Bygg</a>
+						<!--<a class="dropdown-item" href="index.php?page=construction">Bygg</a>-->
 					</div>
 				</li>
 				<li class="nav-item application-page">

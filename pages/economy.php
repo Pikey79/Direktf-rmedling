@@ -7,7 +7,7 @@
 	 <figure>
 			<div class="banner-container banner-economy">
 				<div class="banner-heading-container">
-					<h1 class="display-2">Ekonomi</h1>
+					<h1 class="display-2">Bokföring & Redovisning</h1>
 				</div>
 			</div>
 	 </figure>
@@ -17,7 +17,7 @@
 	<div class="container-fluid padding ap-more-padding">
 		<div class="row">
 			<div class="col-lg-6">
-				<h2>Ekonomi</h2>
+				<h2>Bokföring & Redovisning</h2>
 				<p>Direktförmedling hyr ut ekonomer, redovisningsekonomer, banktjänstemän, controllers samt administratörer.
 					Behöver du personal eller söker du jobb? Kontakta verksamhetsansvarig Arman Poya på arman@direktformedling.se eller ring <a href="tel:0705023263">(+46)70 - 782 53 12</a>.</p>
 			</div>

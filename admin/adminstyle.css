@@ -226,6 +226,30 @@ table.CV-table tr:nth-child(odd) {
   display: none;
 }
 
+.link-CV {
+  display: none;
+}
+
+.link-CV.show-cv-link {
+  display: inline !important;
+}
+
+/******* POPUP *******/
+
+.message-popup {
+    position: fixed;
+    height: 500px;
+    width: 800px;
+    background: wheat;
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    z-index: 999;
+    padding: 20px;
+}
+
 
 /****************************************************
 Edit text

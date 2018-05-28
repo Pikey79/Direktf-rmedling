@@ -49,7 +49,7 @@ if  (isset($_POST['name'])
   $fileextension= substr($file_name, $position + 1);
   $fileextension= strtolower($fileextension);
 
-
+  // Allow certain file formats
   $correct_file = 0;
   $allowedExts = array("pdf", "doc", "docx");
   $extension = end(explode(".", $file_name));
